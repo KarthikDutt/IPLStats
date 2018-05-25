@@ -11,9 +11,17 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import pymongo
 from pymongo import MongoClient
-import pprint
+import configparser as cp
+from stats_logger import logger
 
-directory_in_str="C:\\Users\\Siddi\\PycharmProjects\\IPL_Prediction\\Data\\Yaml\\"
+#directory_in_str="C:\\Users\\Siddi\\PycharmProjects\\IPL_Prediction\\Data\\Yaml\\"
+
+logger.info("Process Start")
+config = cp.ConfigParser()
+logger.info("Reading Config")
+config.read("config.ini")
+directory_in_str =config['BASIC']['yaml_directory']
+logger.info("Data Directory - %s",directory_in_str)
 directory = os.fsencode(directory_in_str)
 
 
@@ -26,6 +34,7 @@ def json_serial(obj):
 
 #Function to remove the . in the keys and replace them with - . Key values cannot have '.'
 def remove_dots(obj):
+    #logger.info("Inside Remove Dots Method")
     for key in obj.keys():
         new_key = key.replace(".","-")
         if new_key != key:
@@ -34,6 +43,7 @@ def remove_dots(obj):
     return obj
 
 def get_df_from_yaml(filename):
+    logger.info("Inside get_df_from_yaml Method")
     match_info_df=pd.DataFrame()
     if filename.endswith(".yaml"):
         print(filename)
@@ -49,6 +59,7 @@ def get_df_from_yaml(filename):
         return match_info_dict
 
 def get_consolidated_match_Stats(score_batsmen,score_bowler,wickets_bowler,fielding_details):
+    logger.info("Inside get_consolidated_match_Stats Method")
     #Function to summarise the stats
     try:
         batsmen_score_total = {}
@@ -94,9 +105,11 @@ def get_consolidated_match_Stats(score_batsmen,score_bowler,wickets_bowler,field
         # stats_list=[batsmen_score_total,bowler_score_total,wickets_bowler_total,fielding_details_total]
     except:
         print("exception Occurred")
+        logger.error("Error Inside get_consolidated_match_Stats Method")
     return batsmen_score_total,bowler_score_total,wickets_bowler_total,fielding_details_total
 
 def get_score_from_yaml(innings,filename):
+    logger.info("Inside get_score_from_yaml Method")
     #This function is called per innings. Twice per match.
     #Return values are used by get_consolidated_match_Stats to summarise the details
     match_info_df=pd.DataFrame()
@@ -153,15 +166,17 @@ def get_score_from_yaml(innings,filename):
                     else:
                         score_bowler[value["bowler"]] = [value["runs"]["total"]]
         except yaml.YAMLError as exc:
-            print(exc)
+            logger.error("yaml error Inside get_score_from_yaml Method")
         except:
             #shutil.copy(file, destination)
-            print("Exception occured")
-            print(file)
+            logger.warning(" error Inside get_score_from_yaml Method - %s", filename)
+            #print("Exception occured")
+            #print(filename)
             pass
     return score_batsmen,score_bowler,wickets_bowler,fielding_details
 
 def show_mom_details(df):
+    logger.info("Inside show_mom_details Method")
     man_of_match_list = []
     try:
         for val in (df.loc[:, 'player_of_match'].values):
@@ -173,16 +188,20 @@ def show_mom_details(df):
         df = df[df.iloc[:, 0] > 0]
     except KeyError:
         man_of_match_list.append("None")
+        logger.warning("Exception Inside show_mom_details Method")
     except TypeError:
         man_of_match_list.append("None")
+        logger.warning("Exception Inside show_mom_details Method")
     return df
 
 def setup_mongo_client():
+    logger.info("Inside setup_mongo_client Method")
     client = MongoClient()
     client = MongoClient('localhost', 27017)
     return client
 
 def get_all_stats_of_match(filename):
+    logger.info("Inside get_all_stats_of_match Method")
     score_batsmen, score_bowler, wickets_bowler, fielding_details = get_score_from_yaml(1, filename)
     #Raw Stats of first innings
     bat_inns_one, bowl_inns_one, wickets_inns_one, field_inns_one = get_consolidated_match_Stats(score_batsmen,
@@ -206,6 +225,7 @@ def get_all_stats_of_match(filename):
     return bat_inns,bowl_inns,wickets_inns,field_inns
 
 def create_documets_for_storing(bat_inns, bowl_inns, wickets_inns, field_inns,post_id):
+    logger.info("Inside create_documets_for_storing Method")
     bat_doc = {"_id": str(post_id), "stats": bat_inns}#Linking the stats with the inserted match Id
     bowl_doc = {"_id": str(post_id), "stats": bowl_inns}
     wickets_doc = {"_id": str(post_id), "stats": wickets_inns}
