@@ -8,39 +8,16 @@ from datetime import date, datetime
 import os
 import numpy as np
 from collections import Counter
+import traceback
 import matplotlib.pyplot as plt
-import pymongo
-from pymongo import MongoClient
 import configparser as cp
 from stats_logger import logger
+from Utility import create_documets_for_storing,remove_dots,json_serial,read_config,setup_mongo_client,load_all_data_from_db
+#from DbFetch import load_data_from_db
 
 #directory_in_str="C:\\Users\\Siddi\\PycharmProjects\\IPL_Prediction\\Data\\Yaml\\"
 
-logger.info("Process Start")
-config = cp.ConfigParser()
-logger.info("Reading Config")
-config.read("config.ini")
-directory_in_str =config['BASIC']['yaml_directory']
-logger.info("Data Directory - %s",directory_in_str)
-directory = os.fsencode(directory_in_str)
 
-
-def json_serial(obj):
-    """JSON serializer for objects not serializable by default json code"""
-
-    if isinstance(obj, (datetime, date)):
-        return obj.isoformat()
-    raise TypeError ("Type %s not serializable" % type(obj))
-
-#Function to remove the . in the keys and replace them with - . Key values cannot have '.'
-def remove_dots(obj):
-    #logger.info("Inside Remove Dots Method")
-    for key in obj.keys():
-        new_key = key.replace(".","-")
-        if new_key != key:
-            obj[new_key] = obj[key]
-            del obj[key]
-    return obj
 
 def get_df_from_yaml(filename):
     logger.info("Inside get_df_from_yaml Method")
@@ -105,7 +82,7 @@ def get_consolidated_match_Stats(score_batsmen,score_bowler,wickets_bowler,field
         # stats_list=[batsmen_score_total,bowler_score_total,wickets_bowler_total,fielding_details_total]
     except:
         print("exception Occurred")
-        logger.error("Error Inside get_consolidated_match_Stats Method")
+        logger.error("Error Inside get_consolidated_match_Stats Method" + traceback.format_exc())
     return batsmen_score_total,bowler_score_total,wickets_bowler_total,fielding_details_total
 
 def get_score_from_yaml(innings,filename):
@@ -123,6 +100,7 @@ def get_score_from_yaml(innings,filename):
             score_bowler={}
             wickets_bowler = {}
             fielding_details={}
+            exception_case={}
             json_obj = json.dumps(yaml.load(stream), default=json_serial, indent=4)
             #Separates the info details from yaml and obtains only the ball by ball inns details
             # Contains the details of both the innings.
@@ -136,44 +114,47 @@ def get_score_from_yaml(innings,filename):
             #print("Runs Scored/Conceded,Balls Faced,Str Rate,No of Dots,No of 4s,No of 6s,% of Dots,"
                  # "% of balls in Boundaries,% of runs in Boundaries")
             for i in fir_inns_del:
-                for key, value in i.items():
-                    if value["batsman"] in score_batsmen:#value["batsman"] contains the name of the batsman
-                        #If the name is present in dict already as a key then:
-                        score_batsmen[value["batsman"]].append(value["runs"]["batsman"])
-                        if "wicket" in value:
-                            if value["wicket"]["kind"]!="run out" and value["wicket"]["kind"] != "retired hurt" \
-                                    and value["wicket"]["kind"] != "obstructing the field":
-                                #Credit the bowler for wicket only if the mode of dismissal is none of the above
-                                if value["bowler"] in wickets_bowler:#If bowler name is present as a key in dict
-                                    wickets_bowler[value["bowler"]].append(value["wicket"]["player_out"])
-                                else: #Create the key with bowler name
-                                    wickets_bowler[value["bowler"]] = [value["runs"]["total"]]
-                                if (value["wicket"]["kind"] != "run out" and value["wicket"]["kind"] != "bowled"
-                                        and value["wicket"]["kind"] != "lbw" and value["wicket"]["kind"] !=
-                                        "caught and bowled" and value["wicket"]["kind"] != "retired hurt"
-                                        and value["wicket"]["kind"] != "obstructing the field" and value["wicket"]["kind"]!="hit wicket"):
-                                    #Credit the fielder if mode of dismissal is none of the above
-                                    if value["wicket"]["fielders"][0] in fielding_details:
-                                        fielding_details[value["wicket"]["fielders"][0]].append(value["wicket"]["player_out"])
-                                        fielding_details[value["wicket"]["fielders"][0]].append(value["bowler"])
-                                    else:
-                                        fielding_details[value["wicket"]["fielders"][0]]= [value["runs"]["total"]]
-                                        fielding_details[value["wicket"]["fielders"][0]].append(value["bowler"])
-                    else:
-                        score_batsmen[value["batsman"]] = [value["runs"]["batsman"]]
-                    if value["bowler"] in score_bowler:#Runs conceded by the bowler
-                        score_bowler[value["bowler"]].append(value["runs"]["total"])
-                    else:
-                        score_bowler[value["bowler"]] = [value["runs"]["total"]]
+                if (type(i)==str):
+                    exception_case["Absent_Hurt"]=i
+                else:
+                    for key, value in i.items():
+                        if value["batsman"] in score_batsmen:#value["batsman"] contains the name of the batsman
+                            #If the name is present in dict already as a key then:
+                            score_batsmen[value["batsman"]].append(value["runs"]["batsman"])
+                            if "wicket" in value:
+                                if value["wicket"]["kind"]!="run out" and value["wicket"]["kind"] != "retired hurt" \
+                                        and value["wicket"]["kind"] != "obstructing the field":
+                                    #Credit the bowler for wicket only if the mode of dismissal is none of the above
+                                    if value["bowler"] in wickets_bowler:#If bowler name is present as a key in dict
+                                        wickets_bowler[value["bowler"]].append(value["wicket"]["player_out"])
+                                    else: #Create the key with bowler name
+                                        wickets_bowler[value["bowler"]] = [value["runs"]["total"]]
+                                    if (value["wicket"]["kind"] != "run out" and value["wicket"]["kind"] != "bowled"
+                                            and value["wicket"]["kind"] != "lbw" and value["wicket"]["kind"] !=
+                                            "caught and bowled" and value["wicket"]["kind"] != "retired hurt"
+                                            and value["wicket"]["kind"] != "obstructing the field" and value["wicket"]["kind"]!="hit wicket"):
+                                        #Credit the fielder if mode of dismissal is none of the above
+                                        if value["wicket"]["fielders"][0] in fielding_details:
+                                            fielding_details[value["wicket"]["fielders"][0]].append(value["wicket"]["player_out"])
+                                            fielding_details[value["wicket"]["fielders"][0]].append(value["bowler"])
+                                        else:
+                                            fielding_details[value["wicket"]["fielders"][0]]= [value["runs"]["total"]]
+                                            fielding_details[value["wicket"]["fielders"][0]].append(value["bowler"])
+                        else:
+                            score_batsmen[value["batsman"]] = [value["runs"]["batsman"]]
+                        if value["bowler"] in score_bowler:#Runs conceded by the bowler
+                            score_bowler[value["bowler"]].append(value["runs"]["total"])
+                        else:
+                            score_bowler[value["bowler"]] = [value["runs"]["total"]]
         except yaml.YAMLError as exc:
             logger.error("yaml error Inside get_score_from_yaml Method")
         except:
             #shutil.copy(file, destination)
-            logger.warning(" error Inside get_score_from_yaml Method - %s", filename)
+            logger.warning(" error Inside get_score_from_yaml Method - %s" + traceback.format_exc(), filename)
             #print("Exception occured")
             #print(filename)
             pass
-    return score_batsmen,score_bowler,wickets_bowler,fielding_details
+    return score_batsmen,score_bowler,wickets_bowler,fielding_details,exception_case
 
 def show_mom_details(df):
     logger.info("Inside show_mom_details Method")
@@ -188,28 +169,24 @@ def show_mom_details(df):
         df = df[df.iloc[:, 0] > 0]
     except KeyError:
         man_of_match_list.append("None")
-        logger.warning("Exception Inside show_mom_details Method")
+        logger.warning("Exception Inside show_mom_details Method"+ traceback.format_exc())
     except TypeError:
         man_of_match_list.append("None")
-        logger.warning("Exception Inside show_mom_details Method")
+        logger.warning("Exception Inside show_mom_details Method"+ traceback.format_exc())
     return df
 
-def setup_mongo_client():
-    logger.info("Inside setup_mongo_client Method")
-    client = MongoClient()
-    client = MongoClient('localhost', 27017)
-    return client
+
 
 def get_all_stats_of_match(filename):
     logger.info("Inside get_all_stats_of_match Method")
-    score_batsmen, score_bowler, wickets_bowler, fielding_details = get_score_from_yaml(1, filename)
+    score_batsmen, score_bowler, wickets_bowler, fielding_details,exception_cases = get_score_from_yaml(1, filename)
     #Raw Stats of first innings
     bat_inns_one, bowl_inns_one, wickets_inns_one, field_inns_one = get_consolidated_match_Stats(score_batsmen,
                                                                                                  score_bowler,
                                                                                                  wickets_bowler,
                                                                                                  fielding_details)
     #Summary stats of first innings
-    score_batsmen, score_bowler, wickets_bowler, fielding_details = get_score_from_yaml(2, filename)
+    score_batsmen, score_bowler, wickets_bowler, fielding_details,exception_cases = get_score_from_yaml(2, filename)
     # Raw Stats of second innings
     bat_inns_two, bowl_inns_two, wickets_inns_two, field_inns_two = get_consolidated_match_Stats(score_batsmen,
                                                                                                  score_bowler,
@@ -224,32 +201,36 @@ def get_all_stats_of_match(filename):
 
     return bat_inns,bowl_inns,wickets_inns,field_inns
 
-def create_documets_for_storing(bat_inns, bowl_inns, wickets_inns, field_inns,post_id):
-    logger.info("Inside create_documets_for_storing Method")
-    bat_doc = {"_id": str(post_id), "stats": bat_inns}#Linking the stats with the inserted match Id
-    bowl_doc = {"_id": str(post_id), "stats": bowl_inns}
-    wickets_doc = {"_id": str(post_id), "stats": wickets_inns}
-    field_doc = {"_id": str(post_id), "stats": field_inns}
-    return bat_doc,bowl_doc,wickets_doc,field_doc
+directory_in_str,load_data,directory=read_config()
 
-for file in os.listdir(directory):
-    print(file)
-    filename = os.fsdecode(file)
-    info_dict=get_df_from_yaml(filename)
-    client=setup_mongo_client()#Create a connection handler
-    db = client.test_db_2#Connect to the database
-    collection = db.match_info #Connect to the table
-    post_id = collection.insert_one(json.loads(json.dumps(info_dict),object_hook=remove_dots))
-    bat_inns, bowl_inns, wickets_inns, field_inns=get_all_stats_of_match(filename)
-    bat_doc, bowl_doc, wickets_doc, field_doc=create_documets_for_storing(bat_inns, bowl_inns, wickets_inns,
-                                                                          field_inns,post_id.inserted_id)
-    collection = db.bat_stats
-    post_id_bat = collection.insert_one(json.loads(json.dumps(bat_doc), object_hook=remove_dots))
-    collection = db.bowl_stats
-    post_id_bowl = collection.insert_one(json.loads(json.dumps(bowl_doc), object_hook=remove_dots))
-    collection = db.wickets_stats
-    post_id_field = collection.insert_one(json.loads(json.dumps(wickets_doc), object_hook=remove_dots))
-    collection = db.field_stats
-    post_id_wickets = collection.insert_one(json.loads(json.dumps(field_doc), object_hook=remove_dots))
-    #print(doc_stats)
+if load_data=='true':
+    if len(os.listdir(directory) ) != 0:
+        logger.info("Input Directory is not empty.New files to read")
+        for file in os.listdir(directory):
+            print(file)
+            filename = os.fsdecode(file)
+            info_dict=get_df_from_yaml(filename)
+            client=setup_mongo_client()#Create a connection handler
+            db = client.testdb#Connect to the database
+            collection = db.match_info #Connect to the table
+            post_id = collection.insert_one(json.loads(json.dumps(info_dict),object_hook=remove_dots))
+            print(post_id.inserted_id)
+            bat_inns, bowl_inns, wickets_inns, field_inns = get_all_stats_of_match(filename)
+            bat_doc, bowl_doc, wickets_doc, field_doc = create_documets_for_storing(bat_inns, bowl_inns, wickets_inns,
+                                                                                    field_inns, post_id.inserted_id)
+            collection = db.bat_stats
+            # post_id_bat = collection.insert_one(json.loads(json.dumps(bat_doc), object_hook=remove_dots))
+            collection = db.bowl_stats
+            # post_id_bowl = collection.insert_one(json.loads(json.dumps(bowl_doc), object_hook=remove_dots))
+            collection = db.wickets_stats
+            # post_id_field = collection.insert_one(json.loads(json.dumps(wickets_doc), object_hook=remove_dots))
+            collection = db.field_stats
+            # post_id_wickets = collection.insert_one(json.loads(json.dumps(field_doc), object_hook=remove_dots))
+            # print(doc_stats)
+    else:
+        logger.info("Input directory is empty. Read data from database")
+else:
+    match_info_cursor=load_all_data_from_db('testdb','match_info')
+    print(match_info_cursor.distinct('city'))
+
 

@@ -1,0 +1,760 @@
+[2018-05-26 00:34:54,263] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:19} INFO - Process Start
+[2018-05-26 00:34:54,264] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:21} INFO - Reading Config
+[2018-05-26 00:34:54,264] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:24} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml
+[2018-05-26 11:27:49,993] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:20} INFO - Process Start
+[2018-05-26 11:27:49,995] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:22} INFO - Reading Config
+[2018-05-26 11:27:49,997] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:25} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml
+[2018-05-26 11:27:49,997] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:212} INFO - Input Directory is not empty.New files to read
+[2018-05-26 11:27:49,997] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:29} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:28:29,995] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:20} INFO - Process Start
+[2018-05-26 11:28:29,995] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:22} INFO - Reading Config
+[2018-05-26 11:28:29,995] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:25} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 11:28:29,996] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:212} INFO - Input Directory is not empty.New files to read
+[2018-05-26 11:28:29,996] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:29} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:29:40,540] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:20} INFO - Process Start
+[2018-05-26 11:29:40,541] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:22} INFO - Reading Config
+[2018-05-26 11:29:40,541] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:25} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 11:29:40,541] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:212} INFO - Input Directory is not empty.New files to read
+[2018-05-26 11:29:40,542] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:29} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:29:40,802] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:181} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:29:40,877] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:187} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:29:40,877] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:41,116] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:41,116] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:41,360] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:155} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\392197.yaml
+[2018-05-26 11:29:41,360] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:41,360] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:29:41,360] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:29} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:29:41,646] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:181} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:29:41,652] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:187} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:29:41,652] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:41,922] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:41,922] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:42,197] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:155} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\392202.yaml
+[2018-05-26 11:29:42,198] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:42,198] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:29:42,198] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:29} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:29:42,452] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:181} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:29:42,477] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:187} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:29:42,477] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:42,752] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:42,752] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:43,011] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:155} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\419114.yaml
+[2018-05-26 11:29:43,011] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:43,011] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:29:43,011] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:29} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:29:43,087] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:181} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:29:43,091] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:187} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:29:43,091] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:43,166] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:43,166] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:43,239] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:155} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\501265.yaml
+[2018-05-26 11:29:43,239] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:43,239] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:29:43,239] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:29} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:29:43,524] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:181} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:29:43,529] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:187} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:29:43,529] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:43,798] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:43,798] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:44,066] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:155} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\598066.yaml
+[2018-05-26 11:29:44,066] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:44,066] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:29:44,066] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:29} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:29:44,328] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:181} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:29:44,334] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:187} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:29:44,334] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:44,580] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:44,580] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:44,824] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:155} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\729293.yaml
+[2018-05-26 11:29:44,825] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:44,825] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:29:44,825] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:29} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:29:44,972] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:181} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:29:44,987] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:187} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:29:44,987] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:45,138] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:45,138] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:95} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:29:45,300] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:155} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\829763.yaml
+[2018-05-26 11:29:45,300] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:45} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:29:45,300] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:42:06,782] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:21} INFO - Process Start
+[2018-05-26 11:42:06,783] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:23} INFO - Reading Config
+[2018-05-26 11:42:06,784] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:26} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 11:42:06,784] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:213} INFO - Input Directory is not empty.New files to read
+[2018-05-26 11:42:06,785] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:42:07,062] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:182} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:42:07,092] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:188} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:42:07,092] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:07,347] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:07,348] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:07,614] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:156} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\392197.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 123, in get_score_from_yaml
+    for key, value in i.items():
+AttributeError: 'str' object has no attribute 'items'
+
+[2018-05-26 11:42:07,614] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:07,616] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:42:07,616] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:42:07,903] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:182} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:42:07,919] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:188} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:42:07,919] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:08,200] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:08,200] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:08,470] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:156} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\392202.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 123, in get_score_from_yaml
+    for key, value in i.items():
+AttributeError: 'str' object has no attribute 'items'
+
+[2018-05-26 11:42:08,471] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:08,471] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:42:08,471] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:42:08,746] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:182} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:42:08,754] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:188} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:42:08,754] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:09,045] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:09,045] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:09,309] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:156} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\419114.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 123, in get_score_from_yaml
+    for key, value in i.items():
+AttributeError: 'str' object has no attribute 'items'
+
+[2018-05-26 11:42:09,309] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:09,309] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:42:09,309] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:42:09,382] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:182} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:42:09,407] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:188} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:42:09,407] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:09,480] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:09,480] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:09,562] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:156} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\501265.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 118, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 11:42:09,562] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:09,562] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:42:09,562] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:42:09,864] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:182} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:42:09,879] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:188} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:42:09,880] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:10,171] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:10,171] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:10,448] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:156} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\598066.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 123, in get_score_from_yaml
+    for key, value in i.items():
+AttributeError: 'str' object has no attribute 'items'
+
+[2018-05-26 11:42:10,448] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:10,448] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:42:10,449] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:42:10,738] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:182} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:42:10,754] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:188} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:42:10,754] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:11,025] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:11,025] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:11,288] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:156} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\729293.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 123, in get_score_from_yaml
+    for key, value in i.items():
+AttributeError: 'str' object has no attribute 'items'
+
+[2018-05-26 11:42:11,288] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:11,288] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:42:11,288] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:42:11,433] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:182} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:42:11,449] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:188} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:42:11,449] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:11,602] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:11,602] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:42:11,764] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:156} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\829763.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 118, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 11:42:11,765] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:42:11,765] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:49:04,805] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:21} INFO - Process Start
+[2018-05-26 11:49:04,806] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:23} INFO - Reading Config
+[2018-05-26 11:49:04,806] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:26} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 11:49:04,806] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:214} INFO - Input Directory is not empty.New files to read
+[2018-05-26 11:49:04,807] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:49:05,092] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:183} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:49:05,102] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:189} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:49:05,102] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:05,361] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:05,361] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:05,620] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:157} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\392197.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 124, in get_score_from_yaml
+    for key, value in i.items():
+AttributeError: 'str' object has no attribute 'items'
+
+[2018-05-26 11:49:05,620] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:05,620] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:49:05,621] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:49:05,923] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:183} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:49:05,949] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:189} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:49:05,949] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:06,243] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:06,243] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:06,524] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:157} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\392202.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 124, in get_score_from_yaml
+    for key, value in i.items():
+AttributeError: 'str' object has no attribute 'items'
+
+[2018-05-26 11:49:06,524] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:06,524] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:49:06,524] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:49:06,786] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:183} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:49:06,802] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:189} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:49:06,802] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:07,081] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:07,081] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:07,351] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:157} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\419114.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 124, in get_score_from_yaml
+    for key, value in i.items():
+AttributeError: 'str' object has no attribute 'items'
+
+[2018-05-26 11:49:07,351] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:07,351] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:49:07,351] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:49:07,429] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:183} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:49:07,445] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:189} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:49:07,445] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:07,524] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:07,524] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:07,608] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:157} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\501265.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 118, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 11:49:07,609] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:07,609] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:49:07,609] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:49:07,906] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:183} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:49:07,912] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:189} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:49:07,912] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:08,188] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:08,189] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:08,468] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:157} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\598066.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 124, in get_score_from_yaml
+    for key, value in i.items():
+AttributeError: 'str' object has no attribute 'items'
+
+[2018-05-26 11:49:08,468] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:08,468] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:49:08,468] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:49:08,734] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:183} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:49:08,759] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:189} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:49:08,759] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:09,011] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:09,011] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:09,265] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:157} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\729293.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 124, in get_score_from_yaml
+    for key, value in i.items():
+AttributeError: 'str' object has no attribute 'items'
+
+[2018-05-26 11:49:09,265] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:09,265] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 11:49:09,265] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 11:49:09,420] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:183} INFO - Inside setup_mongo_client Method
+[2018-05-26 11:49:09,435] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:189} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 11:49:09,435] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:09,591] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:09,591] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 11:49:09,755] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:157} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\829763.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 118, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 11:49:09,755] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 11:49:09,755] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:15:07,355] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:21} INFO - Process Start
+[2018-05-26 12:15:07,355] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:23} INFO - Reading Config
+[2018-05-26 12:15:07,356] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:26} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 12:15:07,356] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:217} INFO - Input Directory is not empty.New files to read
+[2018-05-26 12:15:07,356] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:15:07,623] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:15:07,633] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:15:07,633] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:07,886] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:07,886] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:08,138] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:08,138] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:15:08,138] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:15:08,425] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:15:08,440] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:15:08,440] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:08,720] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:08,720] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:09,008] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:09,009] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:15:09,009] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:15:09,298] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:15:09,315] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:15:09,315] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:09,638] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:09,638] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:09,907] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:09,907] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:15:09,908] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:15:09,980] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:15:09,987] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:15:09,987] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:10,059] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:10,060] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:10,138] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:160} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\501265.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 119, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 12:15:10,138] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:10,138] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:15:10,138] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:15:10,426] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:15:10,451] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:15:10,451] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:10,731] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:10,731] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:11,021] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:11,021] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:15:11,022] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:15:11,289] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:15:11,295] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:15:11,295] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:11,550] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:11,550] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:11,800] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:11,801] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:15:11,801] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:15:11,949] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:15:11,966] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:15:11,966] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:12,117] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:12,117] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:15:12,280] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:160} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\829763.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 119, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 12:15:12,280] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:15:12,280] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:00,753] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:21} INFO - Process Start
+[2018-05-26 12:16:00,754] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:23} INFO - Reading Config
+[2018-05-26 12:16:00,755] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:26} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 12:16:00,755] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:217} INFO - Input Directory is not empty.New files to read
+[2018-05-26 12:16:00,755] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:01,027] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:01,091] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:01,091] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:01,345] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:01,345] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:01,599] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:01,599] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:01,599] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:01,887] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:01,904] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:01,904] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:02,198] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:02,198] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:02,492] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:02,493] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:02,493] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:02,769] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:02,785] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:02,785] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:03,074] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:03,074] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:03,357] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:03,357] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:03,357] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:03,434] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:03,451] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:03,451] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:03,530] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:03,530] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:03,611] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:160} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\501265.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 119, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 12:16:03,611] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:03,611] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:03,612] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:03,913] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:03,928] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:03,928] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:04,222] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:04,223] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:04,505] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:04,505] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:04,505] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:04,773] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:04,789] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:04,789] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:05,066] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:05,066] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:05,323] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:05,323] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:05,323] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:05,476] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:05,491] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:05,491] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:05,650] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:05,650] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:05,819] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:160} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\829763.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 119, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 12:16:05,820] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:05,820] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:52,875] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:21} INFO - Process Start
+[2018-05-26 12:16:52,875] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:23} INFO - Reading Config
+[2018-05-26 12:16:52,875] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:26} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 12:16:52,876] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:217} INFO - Input Directory is not empty.New files to read
+[2018-05-26 12:16:52,876] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:53,160] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:53,180] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:53,180] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:53,441] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:53,442] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:53,709] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:53,709] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:53,709] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:54,020] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:54,046] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:54,046] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:54,341] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:54,342] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:54,627] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:54,628] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:54,628] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:54,897] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:54,912] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:54,912] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:55,204] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:55,204] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:55,477] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:55,477] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:55,477] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:55,554] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:55,569] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:55,569] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:55,646] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:55,646] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:55,725] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:160} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\501265.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 119, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 12:16:55,725] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:55,725] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:55,726] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:56,023] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:56,038] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:56,039] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:56,322] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:56,322] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:56,604] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:56,604] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:56,604] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:56,874] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:56,890] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:56,890] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:57,148] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:57,149] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:57,405] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:57,405] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:16:57,405] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:16:57,557] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:16:57,572] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:16:57,572] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:57,729] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:57,729] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:16:57,897] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:160} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\829763.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 119, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 12:16:57,897] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:16:57,897] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:26:26,799] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:21} INFO - Process Start
+[2018-05-26 12:38:07,550] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:21} INFO - Process Start
+[2018-05-26 12:38:07,551] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:23} INFO - Reading Config
+[2018-05-26 12:38:07,551] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:26} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 12:38:07,551] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:217} INFO - Input Directory is not empty.New files to read
+[2018-05-26 12:38:07,551] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:38:07,835] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:38:07,844] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:38:07,844] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:08,125] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:08,125] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:08,399] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:08,399] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:38:08,399] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:38:08,707] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:38:08,723] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:38:08,724] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:09,022] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:09,023] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:09,322] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:09,322] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:38:09,323] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:38:09,600] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:38:09,616] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:38:09,616] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:09,916] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:09,916] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:10,192] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:10,193] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:38:10,193] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:38:10,267] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:38:10,294] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:38:10,294] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:10,371] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:10,371] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:10,450] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:160} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\501265.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 119, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 12:38:10,450] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:10,450] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:38:10,450] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:38:10,748] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:38:10,763] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:38:10,763] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:11,049] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:11,049] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:11,345] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:11,346] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:38:11,346] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:38:11,635] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:38:11,651] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:38:11,651] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:11,915] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:11,915] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:12,180] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:12,181] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:38:12,181] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:30} INFO - Inside get_df_from_yaml Method
+[2018-05-26 12:38:12,340] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:186} INFO - Inside setup_mongo_client Method
+[2018-05-26 12:38:12,355] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:192} INFO - Inside get_all_stats_of_match Method
+[2018-05-26 12:38:12,355] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:12,520] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:12,520] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:96} INFO - Inside get_score_from_yaml Method
+[2018-05-26 12:38:12,695] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:160} WARNING -  error Inside get_score_from_yaml Method - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\829763.yamlTraceback (most recent call last):
+  File "C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py", line 119, in get_score_from_yaml
+    fir_inns_del=fir_innings_info.iloc[1,2]
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1367, in __getitem__
+    return self._getitem_tuple(key)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1737, in _getitem_tuple
+    self._has_valid_tuple(tup)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 204, in _has_valid_tuple
+    if not self._has_valid_type(k, i):
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1672, in _has_valid_type
+    return self._is_valid_integer(key, axis)
+  File "C:\Users\Siddi\Anaconda3\lib\site-packages\pandas\core\indexing.py", line 1713, in _is_valid_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+
+[2018-05-26 12:38:12,695] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:46} INFO - Inside get_consolidated_match_Stats Method
+[2018-05-26 12:38:12,695] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:5} INFO - Inside create_documets_for_storing Method
+[2018-05-26 12:40:25,232] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:21} INFO - Process Start
+[2018-05-26 15:12:41,895] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:22} INFO - Process Start
+[2018-05-26 15:12:41,895] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:24} INFO - Reading Config
+[2018-05-26 15:12:41,895] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/Test/RawStats.py:28} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 15:20:04,715] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:32} INFO - Process Start
+[2018-05-26 15:20:04,716] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:34} INFO - Reading Config
+[2018-05-26 15:20:04,716] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:38} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 15:20:19,558] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:32} INFO - Process Start
+[2018-05-26 15:20:19,558] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:34} INFO - Reading Config
+[2018-05-26 15:21:52,748] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:32} INFO - Process Start
+[2018-05-26 15:21:52,749] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:34} INFO - Reading Config
+[2018-05-26 15:30:42,030] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:33} INFO - Process Start
+[2018-05-26 15:30:42,031] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:35} INFO - Reading Config
+[2018-05-26 15:30:42,031] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} ERROR - Config File Not found
+[2018-05-26 15:31:40,066] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:33} INFO - Process Start
+[2018-05-26 15:31:40,067] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:35} INFO - Reading Config
+[2018-05-26 15:31:40,067] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} ERROR - Config File Not found
+[2018-05-26 15:32:00,900] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:34} INFO - Process Start
+[2018-05-26 15:32:00,901] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:36} INFO - Reading Config
+[2018-05-26 15:32:00,901] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:46} ERROR - Config File Not found
+[2018-05-26 15:32:46,678] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:33} INFO - Process Start
+[2018-05-26 15:32:46,679] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:35} INFO - Reading Config
+[2018-05-26 15:32:46,679] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:48} ERROR - Config File Not found
+[2018-05-26 15:34:22,218] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:33} INFO - Process Start
+[2018-05-26 15:34:22,218] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:35} INFO - Reading Config
+[2018-05-26 15:34:22,218] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:48} ERROR - Config File Not found
+[2018-05-26 15:35:18,341] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:33} INFO - Process Start
+[2018-05-26 15:35:18,341] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:35} INFO - Reading Config
+[2018-05-26 15:35:18,342] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:49} ERROR - Config File Not found
+[2018-05-26 15:37:30,490] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:34} INFO - Process Start
+[2018-05-26 15:37:30,490] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:36} INFO - Reading Config
+[2018-05-26 15:37:30,490] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:50} ERROR - Config File Not found
+[2018-05-26 15:38:22,711] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:34} INFO - Process Start
+[2018-05-26 15:38:22,711] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:36} INFO - Reading Config
+[2018-05-26 15:38:22,712] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:46} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 16:46:00,586] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:42} INFO - Process Start
+[2018-05-26 16:46:00,586] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} INFO - Reading Config
+[2018-05-26 16:46:00,587] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:54} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 16:46:00,587] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:10} INFO - Inside setup_mongo_client Method
+[2018-05-26 16:50:50,248] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:42} INFO - Process Start
+[2018-05-26 16:50:50,248] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} INFO - Reading Config
+[2018-05-26 16:50:50,249] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:54} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 16:50:50,249] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:10} INFO - Inside setup_mongo_client Method
+[2018-05-26 16:53:50,260] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:42} INFO - Process Start
+[2018-05-26 16:53:50,261] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} INFO - Reading Config
+[2018-05-26 16:53:50,261] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:54} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 16:53:50,261] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:10} INFO - Inside setup_mongo_client Method
+[2018-05-26 16:54:10,299] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:42} INFO - Process Start
+[2018-05-26 16:54:10,300] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} INFO - Reading Config
+[2018-05-26 16:54:10,300] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:54} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 16:54:10,300] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:10} INFO - Inside setup_mongo_client Method
+[2018-05-26 16:54:33,282] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:42} INFO - Process Start
+[2018-05-26 16:54:33,282] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} INFO - Reading Config
+[2018-05-26 16:54:33,282] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:54} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 16:54:33,282] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:10} INFO - Inside setup_mongo_client Method
+[2018-05-26 17:00:49,731] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:42} INFO - Process Start
+[2018-05-26 17:00:49,731] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} INFO - Reading Config
+[2018-05-26 17:00:49,732] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:54} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 17:00:49,732] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:10} INFO - Inside setup_mongo_client Method
+[2018-05-26 17:00:57,236] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:42} INFO - Process Start
+[2018-05-26 17:00:57,236] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} INFO - Reading Config
+[2018-05-26 17:00:57,237] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:54} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 17:00:57,237] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:10} INFO - Inside setup_mongo_client Method
+[2018-05-26 17:01:12,111] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:42} INFO - Process Start
+[2018-05-26 17:01:12,111] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} INFO - Reading Config
+[2018-05-26 17:01:12,112] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:54} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 17:01:12,112] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:10} INFO - Inside setup_mongo_client Method
+[2018-05-26 17:01:12,116] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\DbFetch.py:16} ERROR - Input directory is empty. Read data from database
+[2018-05-26 17:02:06,516] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:42} INFO - Process Start
+[2018-05-26 17:02:06,517] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} INFO - Reading Config
+[2018-05-26 17:02:06,517] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:54} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 17:02:06,517] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:10} INFO - Inside setup_mongo_client Method
+[2018-05-26 17:02:06,523] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\DbFetch.py:18} ERROR - Input directory is empty. Read data from databaseTraceback (most recent call last):
+  File "C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\DbFetch.py", line 14, in load_data_from_db
+    print(cursor.distinct())
+TypeError: distinct() missing 1 required positional argument: 'key'
+
+[2018-05-26 17:02:37,806] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:42} INFO - Process Start
+[2018-05-26 17:02:37,806] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} INFO - Reading Config
+[2018-05-26 17:02:37,807] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:54} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 17:02:37,807] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:10} INFO - Inside setup_mongo_client Method
+[2018-05-26 17:02:59,485] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:42} INFO - Process Start
+[2018-05-26 17:02:59,485] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:44} INFO - Reading Config
+[2018-05-26 17:02:59,485] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:54} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 17:02:59,486] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:10} INFO - Inside setup_mongo_client Method
+[2018-05-26 17:10:22,432] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
+[2018-05-26 17:10:22,432] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
+[2018-05-26 17:10:22,433] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-26 17:10:22,433] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
