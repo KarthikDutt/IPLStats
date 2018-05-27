@@ -12,8 +12,9 @@ import traceback
 import matplotlib.pyplot as plt
 import configparser as cp
 from stats_logger import logger
+from collections import OrderedDict
 from Utility import create_documets_for_storing,remove_dots,json_serial,read_config,setup_mongo_client,load_all_data_from_db
-#from DbFetch import load_data_from_db
+from DbFetch import load_stats_from_db,get_individual_bat_stats,get_individual_bowl_stats,get_individual_field_stats
 
 #directory_in_str="C:\\Users\\Siddi\\PycharmProjects\\IPL_Prediction\\Data\\Yaml\\"
 
@@ -65,16 +66,17 @@ def get_consolidated_match_Stats(score_batsmen,score_bowler,wickets_bowler,field
                                            value.count(0), value.count(4), value.count(6),
                                            round(value.count(0) * 100 / len(value), 1),
                                            round((value.count(4) + value.count(6)) * 100 / len(value), 1),
-                                           round((value.count(4) * 4 + value.count(6) * 6) * 100 / sum(value), 1)]
+                                           round((value.count(4) * 4 + value.count(6) * 6) * 100 / sum(value), 1),0]
             except ZeroDivisionError:
                 bowler_score_total[key] = [sum(value), len(value), "%.1f" % round((sum(value) * 6 / len(value)), 1),
                                            value.count(0), value.count(4), value.count(6),
                                            round(value.count(0) * 100 / len(value), 1),
                                            round((value.count(4) + value.count(6)) * 100 / len(value), 1),
-                                           0]#Zero division error while caclulating % of boundary balls
+                                           0,0]#Zero division error while caclulating % of boundary balls
         # print(bowler_score_total)
         for key, value in wickets_bowler.items():
             wickets_bowler_total[key] = [len(value), len(score_bowler[key]) / len(value)]  # No of Wickets, Strike Rate
+            bowler_score_total[key][9]=len(value)
         # print(wickets_bowler_total)
         for key, value in fielding_details.items():
             fielding_details_total[key] = int(len(value) / 2)  # No of Catches
@@ -214,23 +216,33 @@ if load_data=='true':
             db = client.testdb#Connect to the database
             collection = db.match_info #Connect to the table
             post_id = collection.insert_one(json.loads(json.dumps(info_dict),object_hook=remove_dots))
-            print(post_id.inserted_id)
+            #print(post_id.inserted_id)
             bat_inns, bowl_inns, wickets_inns, field_inns = get_all_stats_of_match(filename)
             bat_doc, bowl_doc, wickets_doc, field_doc = create_documets_for_storing(bat_inns, bowl_inns, wickets_inns,
                                                                                     field_inns, post_id.inserted_id)
             collection = db.bat_stats
-            # post_id_bat = collection.insert_one(json.loads(json.dumps(bat_doc), object_hook=remove_dots))
+            post_id_bat = collection.insert_one(json.loads(json.dumps(bat_doc), object_hook=remove_dots))
             collection = db.bowl_stats
-            # post_id_bowl = collection.insert_one(json.loads(json.dumps(bowl_doc), object_hook=remove_dots))
+            post_id_bowl = collection.insert_one(json.loads(json.dumps(bowl_doc), object_hook=remove_dots))
             collection = db.wickets_stats
-            # post_id_field = collection.insert_one(json.loads(json.dumps(wickets_doc), object_hook=remove_dots))
+            post_id_field = collection.insert_one(json.loads(json.dumps(wickets_doc), object_hook=remove_dots))
             collection = db.field_stats
-            # post_id_wickets = collection.insert_one(json.loads(json.dumps(field_doc), object_hook=remove_dots))
+            post_id_wickets = collection.insert_one(json.loads(json.dumps(field_doc), object_hook=remove_dots))
             # print(doc_stats)
     else:
         logger.info("Input directory is empty. Read data from database")
 else:
-    match_info_cursor=load_all_data_from_db('testdb','match_info')
-    print(match_info_cursor.distinct('city'))
+    bat_stats_cursor, bowl_stats_cursor, field_stats_cursor, wickets_stats_cursor,batsmen_list_unique,\
+    bowler_list_unique,consolidated_list=load_stats_from_db()
+    #print(batsmen_list_unique)
+    #print(consolidated_list)
+    #print(batsmen_list_unique)
+    key='R Dravid'
+    print("------------------BATTING STATS-------------------")
+    overall_batting_player_stats = get_individual_bat_stats(key, bat_stats_cursor)
+    print ("-----------------BOWLING STATS------------------")
+    overall_bowling_player_stats=get_individual_bowl_stats(key,bowl_stats_cursor,wickets_stats_cursor)
+    print ("-----------------FIELDING STATS------------------")
+    overall_fielding_player_stats=get_individual_field_stats(key,field_stats_cursor)
 
 
