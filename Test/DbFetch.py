@@ -100,14 +100,29 @@ def get_individual_bat_stats(player,bat_stats_cursor):
     total_dots_faced = sum([item[3] for item in raw_bat_stats_list])
     total_fours = sum([item[4] for item in raw_bat_stats_list])
     total_sixes = sum([item[5] for item in raw_bat_stats_list])
-    overall_strike_rate= round((total_runs/total_balls_faced)*100,1)
-    percent_dots=round((total_dots_faced/total_balls_faced)*100,1)
-    percent_boundary_balls=round((len([item[4] for item in raw_bat_stats_list])/total_balls_faced)*100,1)
-    percent_boundary_runs = round((sum([item[4] for item in raw_bat_stats_list]) / total_balls_faced) * 100, 1)
-    highest_score=max([item[0] for item in raw_bat_stats_list])
+    try:
+        overall_strike_rate= round((total_runs/total_balls_faced)*100,1)
+    except ZeroDivisionError:
+        overall_strike_rate=0
+    try:
+        percent_dots=round((total_dots_faced/total_balls_faced)*100,1)
+    except ZeroDivisionError:
+        percent_dots=0
+    try:
+        percent_boundary_balls=round((len([item[4] for item in raw_bat_stats_list])/total_balls_faced)*100,1)
+    except ZeroDivisionError:
+        percent_boundary_balls=0
+    try:
+        percent_boundary_runs = round((sum([item[4] for item in raw_bat_stats_list]) / total_balls_faced) * 100, 1)
+    except:
+        percent_boundary_runs=0
+    try:
+        highest_score=max([item[0] for item in raw_bat_stats_list])
+    except ValueError:
+        highest_score=0
     overall_batting_player_stats=[total_matches,total_runs,total_balls_faced,overall_strike_rate,total_dots_faced,total_fours,
            total_sixes,percent_dots,percent_boundary_balls,percent_boundary_runs,highest_score]
-    print("Player              - ",player)
+    '''print("Player              - ",player)
     print("Total Innings       - ",total_matches)
     print("Total Runs          - ", total_runs)
     print("Total Balls Faced   - ", total_balls_faced)
@@ -118,7 +133,7 @@ def get_individual_bat_stats(player,bat_stats_cursor):
     print("% of Dots           - ", percent_dots)
     print("% of Boundary balls - ", percent_boundary_balls)
     print("% of Boundary Runs  - ", percent_boundary_runs)
-    print("Highest Score       - ", highest_score)
+    print("Highest Score       - ", highest_score)'''
 
     return overall_batting_player_stats
 
@@ -171,7 +186,7 @@ def get_individual_bowl_stats(player,bowl_stats_cursor,wickets_stats_cursor):
     #highest_score=max([item[0] for item in raw_bat_stats_list])
     overall_bownling_player_stats=[total_matches,total_runs_conc,total_balls_bowled,overall_economy_rate,total_dots_bowled,total_fours_conc,
                                   total_sixes_conc,percent_dots_bowled,percent_boundary_balls,percent_boundary_runs,total_wickets_taken]
-    print("Player                            - ",player)
+    '''print("Player                            - ",player)
     print("Total Innings                     - ",total_matches)
     print("Total Runs Conceded               - ", total_runs_conc)
     print("Total Wickets taken               - ", total_wickets_taken)
@@ -182,7 +197,7 @@ def get_individual_bowl_stats(player,bowl_stats_cursor,wickets_stats_cursor):
     print("No of 6s Conceded                 - ", total_sixes_conc)
     print("% of Dot balls bowled             - ", percent_dots_bowled)
     print("% of Boundary balls Bowled        - ", percent_boundary_balls)
-    print("% of Runs in Boundaries Conceded  - ", percent_boundary_runs)
+    print("% of Runs in Boundaries Conceded  - ", percent_boundary_runs)'''
 
     return overall_bownling_player_stats
 
@@ -210,8 +225,8 @@ def get_individual_field_stats(player,field_stats_cursor):
     try:
         raw_field_stats_list=get_individual_field_raw_stats(player,field_stats_cursor)
         total_catches = sum([item for item in raw_field_stats_list])
-        print("Player                            - ", player)
-        print("Total Catches                     - ", total_catches)
+        #print("Player                            - ", player)
+        #print("Total Catches                     - ", total_catches)
         overall_fielding_player_stats=[total_catches]
     except:
         logger.error("Exception Inside get_individual_field_stats Method" + traceback.format_exc())
