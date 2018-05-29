@@ -14,8 +14,8 @@ import configparser as cp
 from stats_logger import logger
 from collections import OrderedDict
 from Utility import create_documets_for_storing,remove_dots,json_serial,read_config,setup_mongo_client,load_all_data_from_db
-from DbFetch import load_stats_from_db,get_individual_bat_stats,get_individual_bowl_stats,get_individual_field_stats
-
+from DbFetch import load_stats_from_db
+from playerRanking import generate_ind_stats_data_for_all,generate_batting_rankings,load_rankings_from_db,get_player_stats
 #directory_in_str="C:\\Users\\Siddi\\PycharmProjects\\IPL_Prediction\\Data\\Yaml\\"
 
 
@@ -203,7 +203,7 @@ def get_all_stats_of_match(filename):
 
     return bat_inns,bowl_inns,wickets_inns,field_inns
 
-directory_in_str,load_data,directory=read_config()
+directory_in_str,load_data,generate_stats,directory=read_config()
 
 if load_data=='true':
     if len(os.listdir(directory) ) != 0:
@@ -232,93 +232,19 @@ if load_data=='true':
     else:
         logger.info("Input directory is empty. Read data from database")
 else:
-    bat_stats_cursor, bowl_stats_cursor, field_stats_cursor, wickets_stats_cursor,batsmen_list_unique,\
-    bowler_list_unique,consolidated_list=load_stats_from_db()
-    #print(batsmen_list_unique)
-    #print(consolidated_list)
-    #print(batsmen_list_unique)
-    individual_stats_all = {}
-    overall_batting_player_stats_dict = OrderedDict()
-    for key in consolidated_list:
-        #print(key)
-    #print("------------------BATTING STATS-------------------")
-        overall_batting_player_stats = get_individual_bat_stats(key, bat_stats_cursor)
-        overall_batting_player_stats_dict[key]=overall_batting_player_stats
-    #print ("-----------------BOWLING STATS-------------------")
-        overall_bowling_player_stats=get_individual_bowl_stats(key,bowl_stats_cursor,wickets_stats_cursor)
-    #print ("-----------------FIELDING STATS------------------")
-        overall_fielding_player_stats=get_individual_field_stats(key,field_stats_cursor)
-        individual_stats_all[key] = [overall_batting_player_stats,overall_bowling_player_stats,overall_fielding_player_stats]
-    #####Rankings batting
-    highest_scores_order = OrderedDict(sorted(overall_batting_player_stats_dict.items(), key=lambda x: x[1][10], reverse=True))
-    most_matches_order = OrderedDict(sorted(overall_batting_player_stats_dict.items(), key=lambda x: x[1][0], reverse=True))
-    most_runs_order = OrderedDict(sorted(overall_batting_player_stats_dict.items(), key=lambda x: x[1][1], reverse=True))
-    highest_str_order = OrderedDict(sorted(overall_batting_player_stats_dict.items(), key=lambda x: x[1][3], reverse=True))
-    number_of_fours_order = OrderedDict(sorted(overall_batting_player_stats_dict.items(), key=lambda x: x[1][5], reverse=True))
-    number_of_sixes_order = OrderedDict(sorted(overall_batting_player_stats_dict.items(), key=lambda x: x[1][6], reverse=True))
-    percent_dots_order = OrderedDict(sorted(overall_batting_player_stats_dict.items(), key=lambda x: x[1][7], reverse=True))
-    percent_boundary_order = OrderedDict(sorted(overall_batting_player_stats_dict.items(), key=lambda x: x[1][9], reverse=True))
-    #####Ranking
-    #print (type(individual_stats_all))
-    highest_scores_order = list(highest_scores_order.items())
-    highest_scores_order_2=[]
-    for item in highest_scores_order:
-        highest_scores_order_2.append([item[0],item[1][10]])
+    if generate_stats == 'true':
+        bat_stats_cursor, bowl_stats_cursor, field_stats_cursor, wickets_stats_cursor,batsmen_list_unique,\
+        bowler_list_unique,consolidated_list=load_stats_from_db()
 
-    most_matches_order = list(most_matches_order.items())
-    most_matches_order_2 = []
-    for item in most_matches_order:
-        most_matches_order_2.append([item[0], item[1][0]])
-
-    most_runs_order = list(most_runs_order.items())
-    most_runs_order_2 = []
-    for item in most_runs_order:
-        most_runs_order_2.append([item[0], item[1][1]])
-
-    highest_str_order = list(highest_str_order.items())
-    highest_str_order_2 = []
-    for item in highest_str_order:
-        if item[1][0] > 25:
-            highest_str_order_2.append([item[0], item[1][3]])
-
-    number_of_fours_order = list(number_of_fours_order.items())
-    number_of_fours_order_2 = []
-    for item in number_of_fours_order:
-        number_of_fours_order_2.append([item[0], item[1][5]])
-
-    number_of_sixes_order = list(number_of_sixes_order.items())
-    number_of_sixes_order_2 = []
-    for item in number_of_sixes_order:
-        number_of_sixes_order_2.append([item[0], item[1][6]])
-
-    percent_dots_order = list(percent_dots_order.items())
-    percent_dots_order_2 = []
-    for item in percent_dots_order:
-        if item[1][1] > 500:
-            percent_dots_order_2.append([item[0], item[1][7]])
-
-    percent_boundary_order = list(percent_boundary_order.items())
-    percent_boundary_order_2 = []
-    for item in percent_boundary_order:
-        if item[1][1] > 500:
-            percent_boundary_order_2.append([item[0], item[1][9]])
-
-    print("Highest Scores")
-    print (highest_scores_order_2)
-    print("Most matches")
-    print(most_matches_order_2)
-    print("Most Runs")
-    print(most_runs_order_2)
-    print ("Highest Strike rates")
-    print (highest_str_order_2)
-    print("Most number of 4s")
-    print(number_of_fours_order_2)
-    print("Most number of Sixes")
-    print(number_of_sixes_order_2)
-    print("Percent Dots Order")
-    print(percent_dots_order_2)
-    print("Percent Boundaries Order")
-    print(percent_boundary_order_2)
-    #higest_scores = OrderedDict(sorted(individual_stats_all.items(), key=lambda kv: kv[0],reverse=True))
-    #print(sorted(individual_stats_all.items(), key=lambda x: x[1],reverse=True))
+        overall_batting_player_stats_dict=generate_ind_stats_data_for_all(consolidated_list,bat_stats_cursor, bowl_stats_cursor,
+                                                                      field_stats_cursor, wickets_stats_cursor)
+        generate_batting_rankings(overall_batting_player_stats_dict)
+    else:
+        ind_bat_stats_tuple, ind_bowl_stats_tuple, ind_field_stats_tuple, highest_score_rank_tuple, \
+        highest_str_rank_tuple, most_matches_rank_tuple, most_runs_rank_tuple, number_of_fours_rank_tuple, \
+        number_of_sixes_rank_tuple, percent_boundary_rank_tuple, percent_dots_rank_tuple=load_rankings_from_db()
+        key='R Dravid'
+        get_player_stats(key,ind_bat_stats_tuple, ind_bowl_stats_tuple, ind_field_stats_tuple, highest_score_rank_tuple,
+                         highest_str_rank_tuple, most_matches_rank_tuple, most_runs_rank_tuple, number_of_fours_rank_tuple,
+                         number_of_sixes_rank_tuple, percent_boundary_rank_tuple, percent_dots_rank_tuple)
 

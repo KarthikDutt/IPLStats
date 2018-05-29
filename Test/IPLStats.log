@@ -1,391 +1,79 @@
-[2018-05-28 21:22:34,461] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:22:34,476] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:22:34,476] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:22:34,479] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:22:34,501] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:22:34,546] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:22:34,567] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:23:07,219] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:23:07,219] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:23:07,220] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:23:07,220] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:23:07,225] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:23:07,247] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:23:07,302] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:23:07,321] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:23:17,995] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:23:17,995] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:23:17,995] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:23:17,996] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:23:18,000] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:23:18,032] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:23:18,074] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:23:18,084] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:24:05,108] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:24:05,108] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:24:05,109] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:24:05,109] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:24:05,113] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:24:05,147] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:24:05,190] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:24:05,209] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:39:50,238] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:39:50,239] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:39:50,239] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:39:50,239] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:39:50,244] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:39:50,268] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:39:50,311] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:39:50,321] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:40:08,281] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:40:08,282] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:40:08,282] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:40:08,282] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:40:08,287] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:40:08,308] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:40:08,349] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:40:08,369] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:41:21,959] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:41:21,959] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:41:21,959] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:41:21,960] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:41:21,964] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:41:21,987] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:41:22,029] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:41:22,057] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:46:09,359] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:46:09,359] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:46:09,360] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:46:09,360] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:46:09,364] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:46:09,386] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:46:09,431] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:46:09,451] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:54:13,733] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:54:13,733] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:54:13,733] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:54:13,734] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:54:13,737] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:54:13,761] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:54:13,815] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:54:13,837] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:55:47,667] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:55:47,668] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:55:47,668] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:55:47,668] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:55:47,672] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:55:47,696] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:55:47,749] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:55:47,768] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:56:10,687] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:56:10,687] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:56:10,688] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:56:10,688] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:56:10,691] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:56:10,724] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:56:10,768] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:56:10,789] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:56:35,456] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:56:35,456] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:56:35,456] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:56:35,457] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:56:35,461] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:56:35,494] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:56:35,526] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:56:35,554] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:57:04,150] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:57:04,150] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:57:04,150] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:57:04,151] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:57:04,156] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:57:04,189] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:57:04,232] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:57:04,252] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:59:41,684] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 21:59:41,684] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 21:59:41,684] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 21:59:41,685] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:59:41,689] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:59:41,723] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:59:41,766] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 21:59:41,776] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:00:26,197] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:00:26,197] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:00:26,198] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:00:26,198] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:00:26,202] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:00:26,236] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:00:26,270] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:00:26,290] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:01:26,618] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:01:26,618] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:01:26,618] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:01:26,619] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:01:26,623] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:01:26,647] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:01:26,680] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:01:26,689] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:03:53,608] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:03:53,608] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:03:53,608] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:03:53,608] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:03:53,613] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:03:53,635] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:03:53,688] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:03:53,698] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:04:08,611] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:04:08,611] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:04:08,612] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:04:08,612] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:04:08,616] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:04:08,637] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:04:08,670] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:04:08,689] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:04:30,002] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:04:30,002] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:04:30,003] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:04:30,003] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:04:30,008] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:04:30,037] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:04:30,080] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:04:30,109] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:21:40,153] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:21:40,153] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:21:40,154] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:21:40,154] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:21:40,158] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:21:40,182] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:21:40,216] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:21:40,226] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:21:55,623] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:21:55,623] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:21:55,624] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:21:55,624] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:21:55,628] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:21:55,662] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:21:55,707] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:21:55,727] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:54:55,056] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:54:55,057] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:54:55,057] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:54:55,058] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:54:55,063] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:54:55,096] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:54:55,127] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:54:55,145] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:55:19,185] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:55:19,185] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:55:19,186] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:55:19,186] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:55:19,191] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:55:19,217] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:55:19,258] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:55:19,267] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:56:46,180] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:56:46,181] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:56:46,181] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:56:46,181] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:56:46,186] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:56:46,218] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:56:46,261] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:56:46,282] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:57:12,576] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:57:12,576] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:57:12,577] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:57:12,577] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:57:12,582] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:57:12,605] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:57:12,637] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:57:12,656] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:57:32,329] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 22:57:32,330] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 22:57:32,330] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 22:57:32,330] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:57:32,335] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:57:32,357] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:57:32,390] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 22:57:32,410] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:01:52,633] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:01:52,634] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:01:52,634] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:01:52,634] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:01:52,639] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:01:52,672] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:01:52,716] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:01:52,736] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:20:36,818] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:20:36,818] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:20:36,819] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:20:36,819] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:20:36,823] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:20:36,848] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:20:36,890] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:20:36,900] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:30:32,417] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:30:32,418] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:30:32,418] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:30:32,418] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:30:32,423] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:30:32,456] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:30:32,499] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:30:32,520] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:31:18,782] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:31:18,782] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:31:18,782] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:31:18,783] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:31:18,787] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:31:18,820] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:31:18,855] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:31:18,874] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:31:56,190] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:31:56,190] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:31:56,191] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:31:56,191] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:31:56,196] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:31:56,227] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:31:56,269] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:31:56,298] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:32:48,023] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:32:48,024] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:32:48,024] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:32:48,024] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:32:48,029] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:32:48,050] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:32:48,101] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:32:48,120] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:33:31,509] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:33:31,510] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:33:31,510] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:33:31,511] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:33:31,515] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:33:31,539] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:33:31,576] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:33:31,595] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:34:51,440] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:34:51,441] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:34:51,441] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:34:51,441] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:34:51,446] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:34:51,487] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:34:51,517] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:34:51,536] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:35:29,617] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:35:29,617] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:35:29,617] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:35:29,618] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:35:29,622] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:35:29,645] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:35:29,696] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:35:29,715] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:36:33,222] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:36:33,223] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:36:33,223] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:36:33,223] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:36:33,227] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:36:33,249] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:36:33,281] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:36:33,301] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:43:08,143] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:43:08,143] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:43:08,144] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:43:08,144] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:43:08,149] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:43:08,172] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:43:08,213] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:43:08,232] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:51:11,695] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:51:11,695] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:51:11,696] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:51:11,696] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:51:11,700] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:51:11,722] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:51:11,757] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:51:11,777] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:52:27,595] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:52:27,595] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:52:27,596] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:52:27,596] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:52:27,601] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:52:27,634] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:52:27,666] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:52:27,685] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:54:13,981] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:54:13,981] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:54:13,982] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:54:13,982] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:54:13,987] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:54:14,019] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:54:14,061] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:54:14,071] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:58:28,705] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-28 23:58:28,706] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-28 23:58:28,707] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-28 23:58:28,707] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:58:28,712] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:58:28,733] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:58:28,776] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-28 23:58:28,797] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:01:23,014] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-29 00:01:23,014] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-29 00:01:23,015] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-29 00:01:23,015] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:01:23,019] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:01:23,042] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:01:23,084] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:01:23,103] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:02:05,656] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-29 00:02:05,656] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-29 00:02:05,657] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-29 00:02:05,657] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:02:05,661] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:02:05,683] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:02:05,723] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:02:05,751] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:02:20,608] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-29 00:02:20,608] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-29 00:02:20,608] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-29 00:02:20,608] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:02:20,613] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:02:20,635] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:02:20,666] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:02:20,695] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:03:01,160] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-29 00:03:01,160] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-29 00:03:01,161] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-29 00:03:01,161] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:03:01,165] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:03:01,187] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:03:01,219] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:03:01,228] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:05:16,017] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-29 00:05:16,018] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-29 00:05:16,018] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-29 00:05:16,019] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:05:16,023] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:05:16,055] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:05:16,087] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:05:16,105] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:11:25,883] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-29 00:11:25,884] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-29 00:11:25,884] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-29 00:11:25,884] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:11:25,889] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:11:25,913] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:11:25,949] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:11:25,968] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:15:23,560] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-29 00:15:23,561] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-29 00:15:23,561] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-29 00:15:23,561] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:15:23,565] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:15:23,593] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:15:23,632] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:15:23,642] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:16:43,069] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:45} INFO - Process Start
-[2018-05-29 00:16:43,069] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:47} INFO - Reading Config
-[2018-05-29 00:16:43,069] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:57} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
-[2018-05-29 00:16:43,069] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:16:43,074] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:16:43,096] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:16:43,137] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
-[2018-05-29 00:16:43,159] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:12} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:26:15,181] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:26:15,200] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:26:15,203] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:26:15,206] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:26:15,209] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:26:15,214] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:26:15,218] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:26:15,221] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:26:15,224] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:27:23,278] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:64} INFO - Process Start
+[2018-05-30 00:27:23,279] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:66} INFO - Reading Config
+[2018-05-30 00:27:23,279] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:77} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-30 00:27:23,280] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:27:23,285] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:27:23,288] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:27:23,292] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:27:23,295] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:27:23,298] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:27:23,300] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:27:23,303] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:27:23,305] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:27:23,308] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:27:23,311] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:29:39,423] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:64} INFO - Process Start
+[2018-05-30 00:29:39,424] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:66} INFO - Reading Config
+[2018-05-30 00:29:39,424] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:77} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-30 00:29:39,424] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:29:39,428] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:29:39,433] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:29:39,437] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:29:39,440] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:29:39,443] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:29:39,445] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:29:39,447] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:29:39,450] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:29:39,452] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:29:39,454] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:34:51,918] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:64} INFO - Process Start
+[2018-05-30 00:34:51,918] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:66} INFO - Reading Config
+[2018-05-30 00:34:51,919] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:77} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-30 00:34:51,919] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:34:51,924] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:34:51,928] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:34:51,931] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:34:51,934] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:34:51,936] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:34:51,939] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:34:51,941] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:34:51,944] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:34:51,946] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:34:51,949] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:45:03,383] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:64} INFO - Process Start
+[2018-05-30 00:45:03,383] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:66} INFO - Reading Config
+[2018-05-30 00:45:03,383] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:77} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-30 00:45:03,384] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:45:03,389] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:45:03,392] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:45:03,396] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:45:03,399] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:45:03,401] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:45:03,404] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:45:03,407] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:45:03,409] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:45:03,411] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:45:03,414] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:46:40,273] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:64} INFO - Process Start
+[2018-05-30 00:46:40,274] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:66} INFO - Reading Config
+[2018-05-30 00:46:40,274] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:77} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-05-30 00:46:40,274] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:46:40,279] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:46:40,282] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:46:40,286] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:46:40,289] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:46:40,291] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:46:40,293] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:46:40,295] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:46:40,297] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:46:40,299] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
+[2018-05-30 00:46:40,302] {C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Test\Utility.py:14} INFO - Inside setup_mongo_client Method
