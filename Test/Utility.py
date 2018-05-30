@@ -29,7 +29,7 @@ def insert_docs_to_tables(database,table,doc):
             collection = db[table]
         except:
             logger.error("Exception occurred while connecting to the table" + traceback.format_exc())
-    print (json.loads(json.dumps(doc)))
+    #print (json.loads(json.dumps(doc)))
     post_id = collection.insert_one(json.loads(json.dumps(doc), object_hook=remove_dots))
     return post_id
 

@@ -149,6 +149,7 @@ def get_individual_bowl_raw_stats(player,bowl_stats_cursor,wickets_stats_cursor)
             raise ValueError
         bowl_stats_cursor.rewind()
     except ValueError:
+        bowl_stats_cursor.rewind()
         return [[0,0,0,0,0,0,0,0,0,0]]
     except:
         bowl_stats_cursor.rewind()

@@ -15,7 +15,8 @@ from stats_logger import logger
 from collections import OrderedDict
 from Utility import create_documets_for_storing,remove_dots,json_serial,read_config,setup_mongo_client,load_all_data_from_db
 from DbFetch import load_stats_from_db
-from playerRanking import generate_ind_stats_data_for_all,generate_batting_rankings,load_rankings_from_db,get_player_stats
+from playerRanking import generate_ind_stats_data_for_all,generate_batting_rankings,load_rankings_from_db,\
+    get_player_stats,generate_bowling_rankings
 #directory_in_str="C:\\Users\\Siddi\\PycharmProjects\\IPL_Prediction\\Data\\Yaml\\"
 
 
@@ -236,15 +237,22 @@ else:
         bat_stats_cursor, bowl_stats_cursor, field_stats_cursor, wickets_stats_cursor,batsmen_list_unique,\
         bowler_list_unique,consolidated_list=load_stats_from_db()
 
-        overall_batting_player_stats_dict=generate_ind_stats_data_for_all(consolidated_list,bat_stats_cursor, bowl_stats_cursor,
+        overall_batting_player_stats_dict,overall_bowling_player_stats_dict,overall_fielding_player_stats_dict\
+            =generate_ind_stats_data_for_all(consolidated_list,bat_stats_cursor, bowl_stats_cursor,
                                                                       field_stats_cursor, wickets_stats_cursor)
         generate_batting_rankings(overall_batting_player_stats_dict)
+        generate_bowling_rankings(overall_bowling_player_stats_dict)
+        #generate_fielding_rankings(overall_batting_player_stats_dict)
     else:
         ind_bat_stats_tuple, ind_bowl_stats_tuple, ind_field_stats_tuple, highest_score_rank_tuple, \
         highest_str_rank_tuple, most_matches_rank_tuple, most_runs_rank_tuple, number_of_fours_rank_tuple, \
-        number_of_sixes_rank_tuple, percent_boundary_rank_tuple, percent_dots_rank_tuple=load_rankings_from_db()
+        number_of_sixes_rank_tuple, percent_boundary_rank_tuple, percent_dots_rank_tuple,best_eco_tuple, \
+        higest_wickets_tuple, most_boundary_balls_tuple, most_fours_conc_tuple, most_percent_dots_tuple,\
+        most_sixes_conc_tuple=load_rankings_from_db()
         key='R Dravid'
         get_player_stats(key,ind_bat_stats_tuple, ind_bowl_stats_tuple, ind_field_stats_tuple, highest_score_rank_tuple,
                          highest_str_rank_tuple, most_matches_rank_tuple, most_runs_rank_tuple, number_of_fours_rank_tuple,
-                         number_of_sixes_rank_tuple, percent_boundary_rank_tuple, percent_dots_rank_tuple)
+                         number_of_sixes_rank_tuple, percent_boundary_rank_tuple, percent_dots_rank_tuple,best_eco_tuple,
+                         higest_wickets_tuple, most_boundary_balls_tuple, most_fours_conc_tuple, most_percent_dots_tuple,
+                         most_sixes_conc_tuple)
 
