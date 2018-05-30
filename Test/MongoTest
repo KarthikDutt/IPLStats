@@ -1,0 +1,48 @@
+import pymongo
+import requests
+import json
+import yaml
+import pandas as pd
+from pymongo import MongoClient
+from datetime import date, datetime
+from pandas.io.json import json_normalize
+import os
+
+filename="C:\\Users\\Siddi\\PycharmProjects\\IPL_Prediction\\Data\\Yaml\\419135.yaml"
+url="http://127.0.0.1/api/v2/Mongodb/_table/test"
+
+
+def json_serial(obj):
+    """JSON serializer for objects not serializable by default json code"""
+
+    if isinstance(obj, (datetime, date)):
+        return obj.isoformat()
+    raise TypeError ("Type %s not serializable" % type(obj))
+
+def get_df_from_yaml():
+    with open(filename, 'r') as stream:
+        try:
+            json_obj = json.dumps(yaml.load(stream), default=json_serial, indent=4)
+            match_info = json_normalize(json.loads(json_obj)["info"])
+        except yaml.YAMLError as exc:
+                    print(exc)
+    return match_info
+
+def remove_dots(obj):
+    for key in obj.keys():
+        new_key = key.replace(".","-")
+        if new_key != key:
+            obj[new_key] = obj[key]
+            del obj[key]
+    return obj
+
+json_obj=get_df_from_yaml()
+json_obj_dict=json_obj.to_dict(orient='dict')
+json_obj_dict={'Name': 'Zara', 'Age.Key': 7, 'Class': 'First'}
+new_json = json.dumps(json_obj_dict)
+json_final=json.loads(new_json, object_hook=remove_dots)
+json_final={"resource":[json_final]}
+print(json.dumps(json_final))
+headers = {"Content-Type": "application/json", "X-DreamFactory-API-Key": "36fda24fe5588fa4285ac6c6c2fdfbdb6b6bc9834699774c9bf777f706d05a88" }
+r = requests.post(url, headers=headers,data=json.dumps(json_final))
+print(r)
