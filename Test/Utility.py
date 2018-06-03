@@ -33,13 +33,16 @@ def insert_docs_to_tables(database,table,doc):
     post_id = collection.insert_one(json.loads(json.dumps(doc), object_hook=remove_dots))
     return post_id
 
-def create_documets_for_storing(bat_inns, bowl_inns, wickets_inns, field_inns,post_id):
+def create_documets_for_storing(bat_inns, bowl_inns, wickets_inns, field_inns,bat_pp,bat_middle,bat_death,post_id):
     logger.info("Inside create_documets_for_storing Method")
     bat_doc = {"_id": str(post_id), "stats": bat_inns}#Linking the stats with the inserted match Id
     bowl_doc = {"_id": str(post_id), "stats": bowl_inns}
     wickets_doc = {"_id": str(post_id), "stats": wickets_inns}
     field_doc = {"_id": str(post_id), "stats": field_inns}
-    return bat_doc,bowl_doc,wickets_doc,field_doc
+    bat_pp_doc = {"_id": str(post_id), "stats": bat_pp}
+    bat_mdl_doc = {"_id": str(post_id), "stats": bat_middle}
+    bat_death_doc = {"_id": str(post_id), "stats": bat_death}
+    return bat_doc,bowl_doc,wickets_doc,field_doc,bat_pp_doc,bat_mdl_doc,bat_death_doc
 
 #Function to remove the . in the keys and replace them with - . Key values cannot have '.'
 def remove_dots(obj):
