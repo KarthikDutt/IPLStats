@@ -237,22 +237,15 @@ else:
         bat_stats_cursor, bowl_stats_cursor, field_stats_cursor, wickets_stats_cursor,batsmen_list_unique,\
         bowler_list_unique,consolidated_list=load_stats_from_db()
 
-        overall_batting_player_stats_dict,overall_bowling_player_stats_dict,overall_fielding_player_stats_dict\
+        overall_batting_player_stats_dict,overall_batting_player_stats_dict_inn_1,overall_batting_player_stats_dict_inn_2,\
+        overall_bowling_player_stats_dict,overall_bowling_player_stats_dict_inn_1,overall_bowling_player_stats_dict_inn_2,\
+        overall_fielding_player_stats_dict\
             =generate_ind_stats_data_for_all(consolidated_list,bat_stats_cursor, bowl_stats_cursor,
                                                                       field_stats_cursor, wickets_stats_cursor)
-        generate_batting_rankings(overall_batting_player_stats_dict)
-        generate_bowling_rankings(overall_bowling_player_stats_dict)
+        generate_batting_rankings(overall_batting_player_stats_dict,overall_batting_player_stats_dict_inn_1,overall_batting_player_stats_dict_inn_2)
+        generate_bowling_rankings(overall_bowling_player_stats_dict,overall_bowling_player_stats_dict_inn_1,overall_bowling_player_stats_dict_inn_2)
         #generate_fielding_rankings(overall_batting_player_stats_dict)
     else:
-        ind_bat_stats_tuple, ind_bowl_stats_tuple, ind_field_stats_tuple, highest_score_rank_tuple, \
-        highest_str_rank_tuple, most_matches_rank_tuple, most_runs_rank_tuple, number_of_fours_rank_tuple, \
-        number_of_sixes_rank_tuple, percent_boundary_rank_tuple, percent_dots_rank_tuple,best_eco_tuple, \
-        higest_wickets_tuple, most_boundary_balls_tuple, most_fours_conc_tuple, most_percent_dots_tuple,\
-        most_sixes_conc_tuple=load_rankings_from_db()
-        key='R Dravid'
-        get_player_stats(key,ind_bat_stats_tuple, ind_bowl_stats_tuple, ind_field_stats_tuple, highest_score_rank_tuple,
-                         highest_str_rank_tuple, most_matches_rank_tuple, most_runs_rank_tuple, number_of_fours_rank_tuple,
-                         number_of_sixes_rank_tuple, percent_boundary_rank_tuple, percent_dots_rank_tuple,best_eco_tuple,
-                         higest_wickets_tuple, most_boundary_balls_tuple, most_fours_conc_tuple, most_percent_dots_tuple,
-                         most_sixes_conc_tuple)
+        key='DJ Bravo'
+        get_player_stats(key)
 
