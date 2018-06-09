@@ -1,0 +1,364 @@
+[2018-06-09 17:07:05,894] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:28} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:07:40,303] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:15} INFO - Process Start
+[2018-06-09 17:07:40,303] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Reading Config
+[2018-06-09 17:07:40,303] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:28} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:08:25,236] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:15} INFO - Process Start
+[2018-06-09 17:08:25,239] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Reading Config
+[2018-06-09 17:08:25,239] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:28} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:09:19,019] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:15} INFO - Process Start
+[2018-06-09 17:09:19,019] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Reading Config
+[2018-06-09 17:09:19,020] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:28} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:09:46,962] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:15} INFO - Process Start
+[2018-06-09 17:09:46,963] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Reading Config
+[2018-06-09 17:09:46,963] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:28} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:10:44,927] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:15} INFO - Process Start
+[2018-06-09 17:10:44,927] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Reading Config
+[2018-06-09 17:10:44,928] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:28} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:21:00,835] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:15} INFO - Process Start
+[2018-06-09 17:21:00,835] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Reading Config
+[2018-06-09 17:21:00,836] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:28} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:22:20,326] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:15} INFO - Process Start
+[2018-06-09 17:22:20,327] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Reading Config
+[2018-06-09 17:22:20,327] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:28} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:28:59,942] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:28:59,943] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:28:59,943] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:42:07,559] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:42:07,559] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:42:07,560] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:43:33,829] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:43:33,829] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:43:33,830] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:43:59,295] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:43:59,296] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:43:59,296] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:44:57,276] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:44:57,277] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:44:57,277] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:46:36,873] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:46:36,874] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:46:36,874] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:47:49,967] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:47:49,967] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:47:49,967] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:48:38,947] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:48:38,947] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:48:38,948] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:49:17,510] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:49:17,510] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:49:17,510] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:49:58,749] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:49:58,750] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:49:58,750] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:56:45,048] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:56:45,049] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:56:45,049] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 17:57:09,507] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 17:57:09,507] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 17:57:09,507] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:00:15,693] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:00:15,694] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:00:15,694] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:01:59,212] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:01:59,212] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:01:59,212] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:08:28,940] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:08:28,940] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:08:28,941] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:10:38,786] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:10:38,786] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:10:38,787] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:14:41,340] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:14:41,340] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:14:41,341] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:20:11,301] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:20:11,302] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:20:11,302] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:31:11,529] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:31:11,529] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:31:11,530] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:34:12,692] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:34:12,693] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:34:12,693] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:39:29,593] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:39:29,593] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:39:29,593] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:40:59,038] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:40:59,039] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:40:59,039] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:44:02,275] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:44:02,275] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:44:02,276] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:45:42,224] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:45:42,224] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:45:42,224] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:46:10,522] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:46:10,522] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:46:10,523] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:47:07,828] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:47:07,829] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:47:07,829] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:47:32,743] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:47:32,743] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:47:32,743] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:49:10,769] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:49:10,769] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:49:10,769] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:52:57,415] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:52:57,416] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:52:57,416] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 18:54:09,262] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 18:54:09,262] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 18:54:09,262] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 19:11:16,797] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 19:11:16,797] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 19:11:16,798] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 19:11:42,846] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 19:11:42,846] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 19:11:42,846] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 19:12:16,630] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 19:12:16,630] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 19:12:16,631] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 19:12:28,916] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 19:12:28,916] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 19:12:28,916] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 19:13:47,410] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 19:13:47,410] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 19:13:47,411] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 19:19:10,420] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:16} INFO - Process Start
+[2018-06-09 19:19:10,420] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:18} INFO - Reading Config
+[2018-06-09 19:19:10,421] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:29} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:01:18,542] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:01:18,542] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:01:18,543] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:03:37,539] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:03:37,540] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:03:37,540] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:17:09,187] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:17:09,188] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:17:09,189] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:17:42,145] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:17:42,146] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:17:42,146] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:18:18,068] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:18:18,069] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:18:18,069] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:20:16,408] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:20:16,408] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:20:16,409] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:21:07,796] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:21:07,796] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:21:07,796] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:25:48,965] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:25:48,965] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:25:48,965] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:27:26,062] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:27:26,063] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:27:26,063] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:28:55,814] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:28:55,814] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:28:55,815] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:31:38,692] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:31:38,693] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:31:38,693] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:55:16,319] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:55:16,319] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:55:16,320] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:56:44,833] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:56:44,833] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:56:44,834] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:57:35,059] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:57:35,060] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:57:35,060] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:58:17,128] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:58:17,129] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:58:17,129] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:58:34,229] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:58:34,230] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:58:34,230] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 21:59:43,198] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 21:59:43,199] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 21:59:43,200] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:00:00,111] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:00:00,111] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:00:00,111] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:17:40,122] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:17:40,122] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:17:40,122] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:18:53,515] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:18:53,516] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:18:53,516] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:19:35,555] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:19:35,555] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:19:35,556] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:20:52,959] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:20:52,960] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:20:52,960] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:21:53,826] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:21:53,826] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:21:53,826] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:23:28,773] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:23:28,773] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:23:28,774] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:28:30,755] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:28:30,755] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:28:30,755] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:29:35,692] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:29:35,692] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:29:35,692] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:30:49,659] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:30:49,660] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:30:49,660] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:31:34,670] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:31:34,670] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:31:34,671] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:31:50,880] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:31:50,880] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:31:50,880] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:33:26,717] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:33:26,717] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:33:26,717] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:45:38,549] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:45:38,549] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:45:38,549] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:47:24,222] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:47:24,222] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:47:24,222] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:49:12,726] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:49:12,726] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:49:12,727] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:51:02,359] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:51:02,359] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:51:02,360] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:52:55,390] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:52:55,391] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:52:55,391] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:55:47,735] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:55:47,736] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:55:47,736] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:56:31,860] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:56:31,860] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:56:31,861] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:56:48,696] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:56:48,696] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:56:48,697] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:57:56,439] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:57:56,440] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:57:56,440] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:58:45,907] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:58:45,908] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:58:45,908] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 22:59:22,352] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 22:59:22,353] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 22:59:22,353] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:00:13,134] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:00:13,135] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:00:13,135] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:12:24,297] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:12:24,299] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:12:24,299] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:18:29,576] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:18:29,577] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:18:29,577] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:20:43,488] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:20:43,489] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:20:43,489] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:24:07,708] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:24:07,709] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:24:07,709] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:24:36,523] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:24:36,524] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:24:36,524] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:24:53,738] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:24:53,739] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:24:53,739] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:25:54,488] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:25:54,488] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:25:54,489] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:26:48,797] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:26:48,798] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:26:48,798] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:27:04,653] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:27:04,653] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:27:04,654] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:28:43,435] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:28:43,435] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:28:43,435] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:30:07,172] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:30:07,173] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:30:07,174] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:35:58,556] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:35:58,556] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:35:58,557] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:36:32,382] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:36:32,382] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:36:32,383] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:37:15,307] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:37:15,308] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:37:15,308] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:38:46,206] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:38:46,206] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:38:46,206] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:39:14,820] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:39:14,821] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:39:14,821] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:45:15,960] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:45:15,960] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:45:15,961] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:48:46,325] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:48:46,326] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:48:46,326] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:50:33,043] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:50:33,044] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:50:33,044] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:51:08,260] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:51:08,260] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:51:08,260] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:53:53,860] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:53:53,861] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:53:53,861] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:55:12,294] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:55:12,294] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:55:12,294] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:55:53,905] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:55:53,905] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:55:53,906] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:56:22,544] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:56:22,544] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:56:22,544] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-09 23:56:38,373] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-09 23:56:38,374] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-09 23:56:38,374] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-10 00:03:47,642] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-10 00:03:47,643] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-10 00:03:47,644] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-10 00:07:30,903] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-10 00:07:30,903] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-10 00:07:30,904] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-10 00:14:57,206] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-10 00:14:57,207] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-10 00:14:57,207] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-10 00:16:32,498] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-10 00:16:32,498] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-10 00:16:32,499] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-10 00:20:12,991] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-10 00:20:12,991] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-10 00:20:12,992] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-10 00:21:18,581] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-10 00:21:18,581] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-10 00:21:18,582] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-10 00:21:19,532] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-10 00:21:19,532] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-10 00:21:19,532] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-10 00:22:23,614] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-10 00:22:23,615] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-10 00:22:23,615] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-10 00:29:58,554] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-10 00:29:58,554] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-10 00:29:58,555] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-10 00:31:51,055] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-10 00:31:51,055] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-10 00:31:51,055] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
+[2018-06-10 00:33:40,649] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:17} INFO - Process Start
+[2018-06-10 00:33:40,650] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:19} INFO - Reading Config
+[2018-06-10 00:33:40,650] {C:/Users/Siddi/PycharmProjects/IPL_Prediction/IPLStats/DF/main.py:30} INFO - Data Directory - C:\Users\Siddi\PycharmProjects\IPL_Prediction\IPLStats\Data\Yaml\
