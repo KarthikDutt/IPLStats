@@ -7,6 +7,7 @@ import time
 import configparser as cp
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 from datetime import date, datetime
 from pandas.io.json import json_normalize
 from stats_df_logger import logger
@@ -206,7 +207,7 @@ if generate_stats=='true':
     result = pd.concat(all_matches_df,ignore_index=True)
     #------------------Overall Batsman Stats/Ranking -------------------------------#
     #------------------Most Runs in IPL History-----------------------#
-    highest_scores_rank=result.groupby(['Batsman_facing'])[["Batsman_Runs"]].sum().\
+    '''highest_scores_rank=result.groupby(['Batsman_facing'])[["Batsman_Runs"]].sum().\
         sort_values(['Batsman_Runs'],ascending=False)
     highest_scores_rank['Batsman_facing'] = highest_scores_rank.index
     highest_scores_rank=highest_scores_rank.reset_index(drop=True)
@@ -252,13 +253,18 @@ if generate_stats=='true':
     number_of_boundary_percent=(number_of_boundary_balls_percent[number_of_boundary_balls_percent.Batsman_Runs_x>1000][['Batsman_facing','Boundary_percent']]
           .sort_values(['Boundary_percent'], ascending=False))
     number_of_boundary_percent=number_of_boundary_percent.reset_index(drop=True)
-    # ------------------Most Boundary Runs % in IPL History (For batsman who have scored <1000 runs-----------------------#
+    # ------------------Most Boundary Runs % in IPL History (For batsman who have scored >1000 runs-----------------------#
     number_of_boundary_runs_percent = highest_scores_rank.merge(number_of_runs_boundaries,on='Batsman_facing',how='inner')
     number_of_boundary_runs_percent['Boundary_percent']= number_of_boundary_runs_percent.Batsman_Runs_y/number_of_boundary_runs_percent.Batsman_Runs_x
     number_of_boundary_runs_percent=(number_of_boundary_runs_percent[number_of_boundary_runs_percent.Batsman_Runs_x>1000][['Batsman_facing','Boundary_percent']]
           .sort_values(['Boundary_percent'], ascending=False))
     number_of_boundary_runs_percent=number_of_boundary_runs_percent.reset_index(drop=True)
     #------------------------Batsmen Powerplay Stats --------------------------------------------#
+    #----------------------------             ------------------------------#
+    #----------------------------             ------------------------------#
+    #----------------------------POWER PLAYS  ------------------------------#
+    #----------------------------             ------------------------------#
+    #----------------------------             ------------------------------#
     #   Most Runs in IPL Powerplay history  #
     #print(result.columns)
     highest_pp_scores_rank=result[(pd.to_numeric(result.Delivery)>0) & (pd.to_numeric(result.Delivery)<6)]
@@ -289,11 +295,179 @@ if generate_stats=='true':
     #---------------------Highest ever scores in PP --------------------------------
     high_pp_score_match=result_power_play.groupby(['Year','Month','Day','Batsman_facing'])[["Batsman_Runs"]].sum()
     high_pp_score_match=high_pp_score_match.sort_values('Batsman_Runs', ascending=False)
-    #-------
-    #high_pp_score_match.first()
-    print(high_pp_score_match)
-    #print(number_of_pp_dots_percent)
-    #print(number_of_dots_percent)
-    #print(number_of_dots_percent[['Batsman_facing','Dot_percent']])
-    #print(number_of_balls_faced,highest_scores_rank)
+    #-------Highest strike rate in PP -----------------------------
+    most_pp_runs = result_power_play.groupby(['Batsman_facing'])[["Batsman_Runs"]].sum()
+    most_pp_runs['Batsman_facing'] = most_pp_runs.index
+    most_pp_runs = most_pp_runs.reset_index(drop=True)
+    pp_strike_rate = most_pp_runs.merge(number_of_pp_balls_faced, on='Batsman_facing', how='inner')
+    pp_strike_rate['Strike_Rate']=(pp_strike_rate.Batsman_Runs_x/pp_strike_rate.Batsman_Runs_y)*100
+    pp_strike_rate=(pp_strike_rate[pp_strike_rate.Batsman_Runs_x>20][['Batsman_facing', 'Strike_Rate','Batsman_Runs_x']].
+                    sort_values(['Strike_Rate'], ascending=False))
+    pp_strike_rate = pp_strike_rate.reset_index(drop=True)
+    #----------------------------             ------------------------------#
+    #----------------------------             ------------------------------#
+    #----------------------------MIDDLE OVERS ------------------------------#
+    #----------------------------             ------------------------------#
+    #----------------------------             ------------------------------#
+    result_middle_overs = result[(pd.to_numeric(result.Delivery) > 6) & (pd.to_numeric(result.Delivery) < 16)]
+    highest_mdl_scores_rank = result_middle_overs.groupby(['Batsman_facing'])[["Batsman_Runs"]].sum(). \
+        sort_values(['Batsman_Runs'], ascending=False)
+    highest_mdl_scores_rank['Batsman_facing'] = highest_mdl_scores_rank.index
+    number_of_mdl_balls_faced = result_middle_overs.groupby(['Batsman_facing'])[["Batsman_Runs"]].count(). \
+        sort_values(['Batsman_Runs'], ascending=False)
+    number_of_mdl_balls_faced['Batsman_facing'] = number_of_mdl_balls_faced.index
+    number_of_mdl_dots = result_middle_overs[result_middle_overs.Batsman_Runs == 0].groupby(['Batsman_facing'])[
+        ["Batsman_Runs"]].count().sort_values(['Batsman_Runs'], ascending=False)
+    number_of_mdl_dots['Batsman_facing'] = number_of_mdl_dots.index
+    number_of_mdl_boundaries = result_middle_overs[(result_middle_overs.Batsman_Runs == 4) |
+            (result_middle_overs.Batsman_Runs == 6)].groupby(['Batsman_facing'])[["Batsman_Runs"]].count(). \
+        sort_values(['Batsman_Runs'], ascending=False)
+    number_of_mdl_boundaries['Batsman_facing'] = number_of_mdl_boundaries.index
+    mdl_strike_rotate = result_middle_overs[(result_middle_overs.Batsman_Runs == 1) |
+            (result_middle_overs.Batsman_Runs == 2)].groupby(['Batsman_facing'])[["Batsman_Runs"]].count(). \
+        sort_values(['Batsman_Runs'], ascending=False)
+    mdl_strike_rotate['Batsman_facing'] = mdl_strike_rotate.index
+    # Strike Rate
+    mdl_strike_rate = highest_mdl_scores_rank.merge(number_of_mdl_balls_faced, on='Batsman_facing', how='inner')
+    mdl_strike_rate['Strike_Rate'] = (mdl_strike_rate.Batsman_Runs_x / mdl_strike_rate.Batsman_Runs_y) * 100
+    mdl_strike_rate = (
+        mdl_strike_rate[mdl_strike_rate.Batsman_Runs_x > 250][['Batsman_facing', 'Strike_Rate', 'Batsman_Runs_x']].
+        sort_values(['Strike_Rate'], ascending=False))
+    mdl_strike_rate = mdl_strike_rate.reset_index(drop=True)
+    #Dots %
+    mdl_dots_percent = number_of_mdl_balls_faced.merge(number_of_mdl_dots, on='Batsman_facing', how='inner')
+    mdl_dots_percent[
+        'Dot_percent'] = (mdl_dots_percent.Batsman_Runs_y / mdl_dots_percent.Batsman_Runs_x)*100
+    mdl_dots_percent = (
+        mdl_dots_percent[mdl_dots_percent.Batsman_Runs_x > 500][['Batsman_facing', 'Dot_percent']]
+            .sort_values(['Dot_percent'], ascending=True))
+    mdl_dots_percent = mdl_dots_percent.reset_index(drop=True)
+    # Boundary %
+    mdl_boundary_percent = number_of_mdl_balls_faced.merge(number_of_mdl_boundaries, on='Batsman_facing', how='inner')
+    mdl_boundary_percent[
+        'Boundary_percent'] = (mdl_boundary_percent.Batsman_Runs_y / mdl_boundary_percent.Batsman_Runs_x)*100
+    mdl_boundary_percent = (
+        mdl_boundary_percent[mdl_boundary_percent.Batsman_Runs_x > 500][
+            ['Batsman_facing', 'Boundary_percent']]
+        .sort_values(['Boundary_percent'], ascending=False))
+    mdl_boundary_percent = mdl_boundary_percent.reset_index(drop=True)
+    #Strike Rotates best
+    mdl_str_rotate_percent = number_of_mdl_balls_faced.merge(mdl_strike_rotate, on='Batsman_facing', how='inner')
+    mdl_str_rotate_percent[
+        'Rotate_percent'] = (mdl_str_rotate_percent.Batsman_Runs_y / mdl_str_rotate_percent.Batsman_Runs_x) * 100
+    mdl_str_rotate_percent = (
+        mdl_str_rotate_percent[mdl_str_rotate_percent.Batsman_Runs_x > 500][
+            ['Batsman_facing', 'Rotate_percent']]
+            .sort_values(['Rotate_percent'], ascending=False))
+    mdl_str_rotate_percent = mdl_str_rotate_percent.reset_index(drop=True)
+    #print(mdl_str_rotate_percent)
     print("--- %s seconds ---" % (time.time() - start_time))
+    #----------------------------             ------------------------------#
+    #----------------------------             ------------------------------#
+    #----------------------------DEATH  OVERS ------------------------------#
+    #----------------------------             ------------------------------#
+    #----------------------------             ------------------------------#
+    result_death_overs = result[(pd.to_numeric(result.Delivery) > 16) & (pd.to_numeric(result.Delivery) < 20)]
+    highest_dth_scores_rank = result_death_overs.groupby(['Batsman_facing'])[["Batsman_Runs"]].sum(). \
+        sort_values(['Batsman_Runs'], ascending=False)
+    highest_dth_scores_rank['Batsman_facing'] = highest_dth_scores_rank.index
+    number_of_dth_balls_faced = result_death_overs.groupby(['Batsman_facing'])[["Batsman_Runs"]].count(). \
+        sort_values(['Batsman_Runs'], ascending=False)
+    number_of_dth_balls_faced['Batsman_facing'] = number_of_dth_balls_faced.index
+    number_of_dth_dots = result_death_overs[result_death_overs.Batsman_Runs == 0].groupby(['Batsman_facing'])[
+        ["Batsman_Runs"]].count().sort_values(['Batsman_Runs'], ascending=False)
+    number_of_dth_dots['Batsman_facing'] = number_of_dth_dots.index
+    number_of_dth_boundaries = result_death_overs[(result_death_overs.Batsman_Runs == 4) |
+            (result_death_overs.Batsman_Runs == 6)].groupby(['Batsman_facing'])[["Batsman_Runs"]].count(). \
+        sort_values(['Batsman_Runs'], ascending=False)
+    number_of_dth_boundaries['Batsman_facing'] = number_of_dth_boundaries.index
+    dth_strike_rotate = result_death_overs[(result_death_overs.Batsman_Runs == 1) |
+            (result_death_overs.Batsman_Runs == 2)].groupby(['Batsman_facing'])[["Batsman_Runs"]].count(). \
+        sort_values(['Batsman_Runs'], ascending=False)
+    dth_strike_rotate['Batsman_facing'] = dth_strike_rotate.index
+    # Strike Rate
+    dth_strike_rate = highest_dth_scores_rank.merge(number_of_dth_balls_faced, on='Batsman_facing', how='inner')
+    dth_strike_rate['Strike_Rate'] = (dth_strike_rate.Batsman_Runs_x / dth_strike_rate.Batsman_Runs_y) * 100
+    dth_strike_rate = (
+        dth_strike_rate[dth_strike_rate.Batsman_Runs_x > 250][['Batsman_facing', 'Strike_Rate', 'Batsman_Runs_x']].
+        sort_values(['Strike_Rate'], ascending=False))
+    dth_strike_rate = dth_strike_rate.reset_index(drop=True)
+    #Dots %
+    dth_dots_percent = number_of_dth_balls_faced.merge(number_of_dth_dots, on='Batsman_facing', how='inner')
+    dth_dots_percent[
+        'Dot_percent'] = (dth_dots_percent.Batsman_Runs_y / dth_dots_percent.Batsman_Runs_x)*100
+    dth_dots_percent = (
+        dth_dots_percent[dth_dots_percent.Batsman_Runs_x > 250][['Batsman_facing', 'Dot_percent']]
+            .sort_values(['Dot_percent'], ascending=True))
+    dth_dots_percent = dth_dots_percent.reset_index(drop=True)
+    # Boundary %
+    dth_boundary_percent = number_of_dth_balls_faced.merge(number_of_dth_boundaries, on='Batsman_facing', how='inner')
+    dth_boundary_percent[
+        'Boundary_percent'] = (dth_boundary_percent.Batsman_Runs_y / dth_boundary_percent.Batsman_Runs_x)*100
+    dth_boundary_percent = (
+        dth_boundary_percent[dth_boundary_percent.Batsman_Runs_x > 100][
+            ['Batsman_facing', 'Boundary_percent']]
+        .sort_values(['Boundary_percent'], ascending=False))
+    dth_boundary_percent = dth_boundary_percent.reset_index(drop=True)
+    #Strike Rotates best
+    dth_str_rotate_percent = number_of_dth_balls_faced.merge(dth_strike_rotate, on='Batsman_facing', how='inner')
+    dth_str_rotate_percent[
+        'Rotate_percent'] = (dth_str_rotate_percent.Batsman_Runs_y / dth_str_rotate_percent.Batsman_Runs_x) * 100
+    dth_str_rotate_percent = (
+        dth_str_rotate_percent[dth_str_rotate_percent.Batsman_Runs_x > 100][
+            ['Batsman_facing', 'Rotate_percent']]
+            .sort_values(['Rotate_percent'], ascending=False))
+    dth_str_rotate_percent = dth_str_rotate_percent.reset_index(drop=True)
+    print(dth_strike_rate)
+    print("--- %s seconds ---" % (time.time() - start_time))'''
+    #print(result[result.Year.isnull()])
+
+    result['Unique_Match_Id']=result['Day'].map(str)+result['Month'].map(str)+result['Year'].map(str)+result['City']+result['Team1']
+    result_b4_death_overs = result[(pd.to_numeric(result.Delivery) > 0) & (pd.to_numeric(result.Delivery) < 16)]
+    result_death_overs = result[(pd.to_numeric(result.Delivery) > 16) & (pd.to_numeric(result.Delivery) < 20)]
+    scores_death_overs=result_death_overs.groupby(['Unique_Match_Id','innings'])[["Total_Runs"]].sum()
+    scores_death_overs['Unique_Match_Id'] = scores_death_overs.index
+    scores_death_overs['innings'] = scores_death_overs.index
+    scores_death_overs = scores_death_overs.reset_index(drop=True)
+
+    wickets_b4_death=result_b4_death_overs.groupby(['Unique_Match_Id','innings'])[["Player_Out"]].count()
+    wickets_b4_death['Unique_Match_Id'] = wickets_b4_death.index
+    wickets_b4_death['innings'] = wickets_b4_death.index
+    wickets_b4_death = wickets_b4_death.reset_index(drop=True)
+
+    merged_result = scores_death_overs.merge(wickets_b4_death, on='Unique_Match_Id', how='inner')
+    #merged_result.to_csv('test1.csv', sep=';', encoding='utf-8', index=False)
+    merged_result = merged_result.drop(['Unique_Match_Id','innings_x','innings_y'], 1)
+    merged_result=merged_result.groupby(['Player_Out'])[["Total_Runs"]].median().round()
+    merged_result['Player_Out'] = merged_result.index
+    merged_result = merged_result.reset_index(drop=True)
+    print(merged_result)
+    #merged_result[['Player_Out', 'Total_Runs']].plot()
+    #plt.show()
+
+    #print(merged_result)
+    '''plt.figure(figsize=(12, 9))
+
+    ax = plt.subplot(111)
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+
+    ax.get_xaxis().tick_bottom()
+    ax.get_yaxis().tick_left()
+
+    plt.xticks(fontsize=14)
+    plt.yticks(range(5000, 30001, 5000), fontsize=14)
+
+    plt.hist(merged_result)
+
+    plt.xlabel("No Of Wickets", fontsize=16)
+    plt.ylabel("Mean Score in Overs 16-20", fontsize=16)
+
+    plt.text(1300, -5000, "Data source: www.cricsheets.com | "
+                          , fontsize=10)
+
+    #print(merged_result)
+    #high_ever_scores=result.groupby(['Unique_Match_Id','Batsman_facing'])[["Batsman_Runs"]].sum(). \
+        #sort_values(['Batsman_Runs'], ascending=False)
+    #print(result.columns)
+    plt.show()'''
