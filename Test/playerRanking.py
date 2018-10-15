@@ -7,12 +7,25 @@ from Utility import insert_docs_to_tables,load_all_data_from_db
 
 # Generates individual bat, bowl and field statistics for all players
 # This function runs only when generate_stats=true. We want to run it only when new matches are added
-def generate_ind_stats_data_for_all(consolidated_list,bat_stats_cursor, bowl_stats_cursor, field_stats_cursor, wickets_stats_cursor):
+def generate_ind_stats_data_for_all(consolidated_list,bat_stats_cursor, bowl_stats_cursor, field_stats_cursor,
+                                    wickets_stats_cursor,bat_pp_stats_cursor,bat_middle_stats_cursor,bat_death_stats_cursor):
     individual_stats_all = {}
     overall_batting_player_stats_dict = OrderedDict() # Ordered Dict is needed as we derive rank.
     overall_batting_player_stats_dict_inn_1=OrderedDict()
     overall_batting_player_stats_dict_inn_2 = OrderedDict()
     #Normal dict will not store the order in which data was inserted
+    overall_pp_batting_player_stats_dict = OrderedDict() # Ordered Dict is needed as we derive rank.
+    overall_pp_batting_player_stats_dict_inn_1=OrderedDict()
+    overall_pp_batting_player_stats_dict_inn_2 = OrderedDict()
+    #
+    overall_mdl_batting_player_stats_dict = OrderedDict() # Ordered Dict is needed as we derive rank.
+    overall_mdl_batting_player_stats_dict_inn_1=OrderedDict()
+    overall_mdl_batting_player_stats_dict_inn_2 = OrderedDict()
+    #
+    overall_death_batting_player_stats_dict = OrderedDict() # Ordered Dict is needed as we derive rank.
+    overall_death_batting_player_stats_dict_inn_1=OrderedDict()
+    overall_death_batting_player_stats_dict_inn_2 = OrderedDict()
+    #
     overall_bowling_player_stats_dict= OrderedDict()
     overall_bowling_player_stats_dict_inn_1 = OrderedDict()
     overall_bowling_player_stats_dict_inn_2 = OrderedDict()
@@ -24,10 +37,31 @@ def generate_ind_stats_data_for_all(consolidated_list,bat_stats_cursor, bowl_sta
             overall_batting_player_stats,overall_batting_player_stats_inn_1,overall_batting_player_stats_inn_2\
                 = get_individual_bat_stats(key, bat_stats_cursor)
             #Bat stats has batting records for all matches
+            overall_pp_batting_player_stats, overall_pp_batting_player_stats_inn_1, overall_pp_batting_player_stats_inn_2 \
+            = get_individual_bat_stats(key, bat_pp_stats_cursor)
+        #
+            overall_mdl_batting_player_stats, overall_mdl_batting_player_stats_inn_1, overall_mdl_batting_player_stats_inn_2 \
+            = get_individual_bat_stats(key, bat_middle_stats_cursor)
+        #
+            overall_death_batting_player_stats, overall_death_batting_player_stats_inn_1, overall_death_batting_player_stats_inn_2 \
+            = get_individual_bat_stats(key, bat_death_stats_cursor)
+        #
             overall_batting_player_stats_dict[key] = overall_batting_player_stats #Append new player as key in dict
             overall_batting_player_stats_dict_inn_1[key] = overall_batting_player_stats_inn_1
             overall_batting_player_stats_dict_inn_2[key] = overall_batting_player_stats_inn_2
         #Derive bat stats for indivuidual players
+            overall_pp_batting_player_stats_dict[key] = overall_pp_batting_player_stats  # Append new player as key in dict
+            overall_pp_batting_player_stats_dict_inn_1[key] = overall_pp_batting_player_stats_inn_1
+            overall_pp_batting_player_stats_dict_inn_2[key] = overall_pp_batting_player_stats_inn_2
+            #
+            overall_mdl_batting_player_stats_dict[key] = overall_mdl_batting_player_stats  # Append new player as key in dict
+            overall_mdl_batting_player_stats_dict_inn_1[key] = overall_mdl_batting_player_stats_inn_1
+            overall_mdl_batting_player_stats_dict_inn_2[key] = overall_mdl_batting_player_stats_inn_2
+            #
+            overall_death_batting_player_stats_dict[key] = overall_death_batting_player_stats  # Append new player as key in dict
+            overall_death_batting_player_stats_dict_inn_1[key] = overall_death_batting_player_stats_inn_1
+            overall_death_batting_player_stats_dict_inn_2[key] = overall_death_batting_player_stats_inn_2
+            #
             # print ("-----------------BOWLING STATS-------------------")
             overall_bowling_player_stats,overall_bownling_player_stats_inn_1,overall_bownling_player_stats_inn_2\
                 = get_individual_bowl_stats(key, bowl_stats_cursor, wickets_stats_cursor)
@@ -47,6 +81,19 @@ def generate_ind_stats_data_for_all(consolidated_list,bat_stats_cursor, bowl_sta
     overall_batting_player_doc = {"stats":[overall_batting_player_stats_dict]}
     overall_batting_player_doc_inn_1 = {"stats": [overall_batting_player_stats_dict_inn_1]}
     overall_batting_player_doc_inn_2 = {"stats": [overall_batting_player_stats_dict_inn_2]}
+    #
+    overall_pp_batting_player_doc = {"stats":[overall_pp_batting_player_stats_dict]}
+    overall_pp_batting_player_doc_inn_1 = {"stats": [overall_pp_batting_player_stats_dict_inn_1]}
+    overall_pp_batting_player_doc_inn_2 = {"stats": [overall_pp_batting_player_stats_dict_inn_2]}
+    #
+    overall_mdl_batting_player_doc = {"stats":[overall_mdl_batting_player_stats_dict]}
+    overall_mdl_batting_player_doc_inn_1 = {"stats": [overall_mdl_batting_player_stats_dict_inn_1]}
+    overall_mdl_batting_player_doc_inn_2 = {"stats": [overall_mdl_batting_player_stats_dict_inn_2]}
+    #
+    overall_death_batting_player_doc = {"stats":[overall_death_batting_player_stats_dict]}
+    overall_death_batting_player_doc_inn_1 = {"stats": [overall_death_batting_player_stats_dict_inn_1]}
+    overall_death_batting_player_doc_inn_2 = {"stats": [overall_death_batting_player_stats_dict_inn_2]}
+    #
     overall_bowling_player_doc = {"stats": [overall_bowling_player_stats_dict]}
     overall_bowling_player_doc_inn_1 = {"stats": [overall_bowling_player_stats_dict_inn_1]}
     overall_bowling_player_doc_inn_2 = {"stats": [overall_bowling_player_stats_dict_inn_2]}
@@ -55,17 +102,33 @@ def generate_ind_stats_data_for_all(consolidated_list,bat_stats_cursor, bowl_sta
     post_id_bat=insert_docs_to_tables('testdb', 'individual_bat_stats_all', overall_batting_player_doc)
     post_id_bat = insert_docs_to_tables('testdb', 'individual_bat_stats_all_inn_1', overall_batting_player_doc_inn_1)
     post_id_bat = insert_docs_to_tables('testdb', 'individual_bat_stats_all_inn_2', overall_batting_player_doc_inn_2)
+    #
+    post_id_bat=insert_docs_to_tables('testdb', 'individual_pp_bat_stats_all', overall_pp_batting_player_doc)
+    post_id_bat = insert_docs_to_tables('testdb', 'individual_pp_bat_stats_all_inn_1', overall_pp_batting_player_doc_inn_1)
+    post_id_bat = insert_docs_to_tables('testdb', 'individual_pp_bat_stats_all_inn_2', overall_pp_batting_player_doc_inn_2)
+    #
+    post_id_bat=insert_docs_to_tables('testdb', 'individual_mdl_bat_stats_all', overall_mdl_batting_player_doc)
+    post_id_bat = insert_docs_to_tables('testdb', 'individual_mdl_bat_stats_all_inn_1', overall_mdl_batting_player_doc_inn_1)
+    post_id_bat = insert_docs_to_tables('testdb', 'individual_mdl_bat_stats_all_inn_2', overall_mdl_batting_player_doc_inn_2)
+    #
+    post_id_bat=insert_docs_to_tables('testdb', 'individual_death_bat_stats_all', overall_death_batting_player_doc)
+    post_id_bat = insert_docs_to_tables('testdb', 'individual_death_bat_stats_all_inn_1', overall_death_batting_player_doc_inn_1)
+    post_id_bat = insert_docs_to_tables('testdb', 'individual_death_bat_stats_all_inn_2', overall_death_batting_player_doc_inn_2)
+    #
     post_id_bowl = insert_docs_to_tables('testdb', 'individual_bowl_stats_all', overall_bowling_player_doc)
     post_id_bowl = insert_docs_to_tables('testdb', 'individual_bowl_stats_all_inn_1', overall_bowling_player_doc_inn_1)
     post_id_bowl = insert_docs_to_tables('testdb', 'individual_bowl_stats_all_inn_2', overall_bowling_player_doc_inn_2)
     post_id_field = insert_docs_to_tables('testdb', 'individual_field_stats_all', overall_fielding_player_doc)
 
-    return overall_batting_player_stats_dict,overall_batting_player_stats_dict_inn_1,overall_batting_player_stats_dict_inn_2,\
-           overall_bowling_player_stats_dict,overall_bowling_player_stats_dict_inn_1,overall_bowling_player_stats_dict_inn_2,\
+    return overall_batting_player_stats_dict,overall_batting_player_stats_dict_inn_1,overall_batting_player_stats_dict_inn_2, \
+           overall_pp_batting_player_stats_dict,overall_pp_batting_player_stats_dict_inn_1,overall_pp_batting_player_stats_dict_inn_2\
+        ,overall_mdl_batting_player_stats_dict,overall_mdl_batting_player_stats_dict_inn_1,overall_mdl_batting_player_stats_dict_inn_2\
+        ,overall_death_batting_player_stats_dict,overall_death_batting_player_stats_dict_inn_1,overall_death_batting_player_stats_dict_inn_2\
+        ,overall_bowling_player_stats_dict,overall_bowling_player_stats_dict_inn_1,overall_bowling_player_stats_dict_inn_2,\
            overall_fielding_player_stats_dict
 # This function runs only when generate_stats=true. We want to run it only when new matches are added
 # It takes 5-6 seconds to run these two functions. So run them once and sae stats in db
-def generate_batting_rankings(overall_batting_player_stats_dict,overall_batting_player_stats_dict_inn_1,overall_batting_player_stats_dict_inn_2):
+def generate_batting_rankings(overall_batting_player_stats_dict,overall_batting_player_stats_dict_inn_1,overall_batting_player_stats_dict_inn_2,mode):
     try:
     #####Rankings batting
     #Ordered dict ensures that order of insert of docs based on ranking is not messed up usual behaviour of dict
@@ -276,33 +339,60 @@ def generate_batting_rankings(overall_batting_player_stats_dict,overall_batting_
     except:
         logger.error("Exception Inside generate_batting_rankings Method" + traceback.format_exc())
         sys.exit(-1)
+    if (mode=='overall'):
+        post_id_high_score=insert_docs_to_tables('testdb', 'highest_score_rank', highest_score_rank_doc)
+        post_id_most_matches = insert_docs_to_tables('testdb', 'most_matches_rank', most_matches_rank_doc)
+        post_id_most_runs = insert_docs_to_tables('testdb', 'most_runs_rank', most_runs_rank_doc)
+        post_id_high_str = insert_docs_to_tables('testdb', 'highest_str_rank', highest_str_rank_doc)
+        post_id_fours = insert_docs_to_tables('testdb', 'number_of_fours_rank', number_of_fours_rank_doc)
+        post_id_sixes = insert_docs_to_tables('testdb', 'number_of_sixes_rank', number_of_sixes_rank_doc)
+        post_id_dots = insert_docs_to_tables('testdb', 'percent_dots_rank', percent_dots_rank_doc)
+        post_id_boundaries = insert_docs_to_tables('testdb', 'percent_boundary_rank', percent_boundary_rank_doc)
 
-    post_id_high_score=insert_docs_to_tables('testdb', 'highest_score_rank', highest_score_rank_doc)
-    post_id_most_matches = insert_docs_to_tables('testdb', 'most_matches_rank', most_matches_rank_doc)
-    post_id_most_runs = insert_docs_to_tables('testdb', 'most_runs_rank', most_runs_rank_doc)
-    post_id_high_str = insert_docs_to_tables('testdb', 'highest_str_rank', highest_str_rank_doc)
-    post_id_fours = insert_docs_to_tables('testdb', 'number_of_fours_rank', number_of_fours_rank_doc)
-    post_id_sixes = insert_docs_to_tables('testdb', 'number_of_sixes_rank', number_of_sixes_rank_doc)
-    post_id_dots = insert_docs_to_tables('testdb', 'percent_dots_rank', percent_dots_rank_doc)
-    post_id_boundaries = insert_docs_to_tables('testdb', 'percent_boundary_rank', percent_boundary_rank_doc)
+        post_id_high_score=insert_docs_to_tables('testdb', 'highest_score_rank_inn_1', highest_score_rank_doc_inn_1)
+        post_id_most_matches = insert_docs_to_tables('testdb', 'most_matches_rank_inn_1', most_matches_rank_doc_inn_1)
+        post_id_most_runs = insert_docs_to_tables('testdb', 'most_runs_rank_inn_1', most_runs_rank_doc_inn_1)
+        post_id_high_str = insert_docs_to_tables('testdb', 'highest_str_rank_inn_1', highest_str_rank_doc_inn_1)
+        post_id_fours = insert_docs_to_tables('testdb', 'number_of_fours_rank_inn_1', number_of_fours_rank_doc_inn_1)
+        post_id_sixes = insert_docs_to_tables('testdb', 'number_of_sixes_rank_inn_1', number_of_sixes_rank_doc_inn_1)
+        post_id_dots = insert_docs_to_tables('testdb', 'percent_dots_rank_inn_1', percent_dots_rank_doc_inn_1)
+        post_id_boundaries = insert_docs_to_tables('testdb', 'percent_boundary_rank_inn_1', percent_boundary_rank_doc_inn_1)
 
-    post_id_high_score=insert_docs_to_tables('testdb', 'highest_score_rank_inn_1', highest_score_rank_doc_inn_1)
-    post_id_most_matches = insert_docs_to_tables('testdb', 'most_matches_rank_inn_1', most_matches_rank_doc_inn_1)
-    post_id_most_runs = insert_docs_to_tables('testdb', 'most_runs_rank_inn_1', most_runs_rank_doc_inn_1)
-    post_id_high_str = insert_docs_to_tables('testdb', 'highest_str_rank_inn_1', highest_str_rank_doc_inn_1)
-    post_id_fours = insert_docs_to_tables('testdb', 'number_of_fours_rank_inn_1', number_of_fours_rank_doc_inn_1)
-    post_id_sixes = insert_docs_to_tables('testdb', 'number_of_sixes_rank_inn_1', number_of_sixes_rank_doc_inn_1)
-    post_id_dots = insert_docs_to_tables('testdb', 'percent_dots_rank_inn_1', percent_dots_rank_doc_inn_1)
-    post_id_boundaries = insert_docs_to_tables('testdb', 'percent_boundary_rank_inn_1', percent_boundary_rank_doc_inn_1)
-
-    post_id_high_score=insert_docs_to_tables('testdb', 'highest_score_rank_inn_2', highest_score_rank_doc_inn_2)
-    post_id_most_matches = insert_docs_to_tables('testdb', 'most_matches_rank_inn_2', most_matches_rank_doc_inn_2)
-    post_id_most_runs = insert_docs_to_tables('testdb', 'most_runs_rank_inn_2', most_runs_rank_doc_inn_2)
-    post_id_high_str = insert_docs_to_tables('testdb', 'highest_str_rank_inn_2', highest_str_rank_doc_inn_2)
-    post_id_fours = insert_docs_to_tables('testdb', 'number_of_fours_rank_inn_2', number_of_fours_rank_doc_inn_2)
-    post_id_sixes = insert_docs_to_tables('testdb', 'number_of_sixes_rank_inn_2', number_of_sixes_rank_doc_inn_2)
-    post_id_dots = insert_docs_to_tables('testdb', 'percent_dots_rank_inn_2', percent_dots_rank_doc_inn_2)
-    post_id_boundaries = insert_docs_to_tables('testdb', 'percent_boundary_rank_inn_2', percent_boundary_rank_doc_inn_2)
+        post_id_high_score=insert_docs_to_tables('testdb', 'highest_score_rank_inn_2', highest_score_rank_doc_inn_2)
+        post_id_most_matches = insert_docs_to_tables('testdb', 'most_matches_rank_inn_2', most_matches_rank_doc_inn_2)
+        post_id_most_runs = insert_docs_to_tables('testdb', 'most_runs_rank_inn_2', most_runs_rank_doc_inn_2)
+        post_id_high_str = insert_docs_to_tables('testdb', 'highest_str_rank_inn_2', highest_str_rank_doc_inn_2)
+        post_id_fours = insert_docs_to_tables('testdb', 'number_of_fours_rank_inn_2', number_of_fours_rank_doc_inn_2)
+        post_id_sixes = insert_docs_to_tables('testdb', 'number_of_sixes_rank_inn_2', number_of_sixes_rank_doc_inn_2)
+        post_id_dots = insert_docs_to_tables('testdb', 'percent_dots_rank_inn_2', percent_dots_rank_doc_inn_2)
+        post_id_boundaries = insert_docs_to_tables('testdb', 'percent_boundary_rank_inn_2', percent_boundary_rank_doc_inn_2)
+    elif(mode=='pp'):
+        post_id_high_score = insert_docs_to_tables('testdb', 'highest_pp_score_rank', highest_score_rank_doc)
+        post_id_most_matches = insert_docs_to_tables('testdb', 'most_pp_matches_rank', most_matches_rank_doc)
+        post_id_most_runs = insert_docs_to_tables('testdb', 'most_pp_runs_rank', most_runs_rank_doc)
+        post_id_high_str = insert_docs_to_tables('testdb', 'highest_pp_str_rank', highest_str_rank_doc)
+        post_id_fours = insert_docs_to_tables('testdb', 'number_of_fours_pp_rank', number_of_fours_rank_doc)
+        post_id_sixes = insert_docs_to_tables('testdb', 'number_of_sixes_pp_rank', number_of_sixes_rank_doc)
+        post_id_dots = insert_docs_to_tables('testdb', 'percent_dots_pp_rank', percent_dots_rank_doc)
+        post_id_boundaries = insert_docs_to_tables('testdb', 'percent_boundary_pp_rank', percent_boundary_rank_doc)
+    elif(mode=='mdl'):
+        post_id_high_score = insert_docs_to_tables('testdb', 'highest_mdl_score_rank', highest_score_rank_doc)
+        post_id_most_matches = insert_docs_to_tables('testdb', 'most_mdl_matches_rank', most_matches_rank_doc)
+        post_id_most_runs = insert_docs_to_tables('testdb', 'most_mdl_runs_rank', most_runs_rank_doc)
+        post_id_high_str = insert_docs_to_tables('testdb', 'highest_mdl_str_rank', highest_str_rank_doc)
+        post_id_fours = insert_docs_to_tables('testdb', 'number_of_fours_mdl_rank', number_of_fours_rank_doc)
+        post_id_sixes = insert_docs_to_tables('testdb', 'number_of_sixes_mdl_rank', number_of_sixes_rank_doc)
+        post_id_dots = insert_docs_to_tables('testdb', 'percent_dots_mdl_rank', percent_dots_rank_doc)
+        post_id_boundaries = insert_docs_to_tables('testdb', 'percent_boundary_mdl_rank', percent_boundary_rank_doc)
+    else:
+        post_id_high_score = insert_docs_to_tables('testdb', 'highest_death_score_rank', highest_score_rank_doc)
+        post_id_most_matches = insert_docs_to_tables('testdb', 'most_death_matches_rank', most_matches_rank_doc)
+        post_id_most_runs = insert_docs_to_tables('testdb', 'most_death_runs_rank', most_runs_rank_doc)
+        post_id_high_str = insert_docs_to_tables('testdb', 'highest_death_str_rank', highest_str_rank_doc)
+        post_id_fours = insert_docs_to_tables('testdb', 'number_death_fours_pp_rank', number_of_fours_rank_doc)
+        post_id_sixes = insert_docs_to_tables('testdb', 'number_death_sixes_pp_rank', number_of_sixes_rank_doc)
+        post_id_dots = insert_docs_to_tables('testdb', 'percent_dots_death_rank', percent_dots_rank_doc)
+        post_id_boundaries = insert_docs_to_tables('testdb', 'percent_boundary_death_rank', percent_boundary_rank_doc)
 
 #Load individual player stats and rankings from database.
 def load_rankings_from_db():

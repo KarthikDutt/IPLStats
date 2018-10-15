@@ -64,6 +64,9 @@ def get_list_all_fielders(field_stats_cursor):
 def load_stats_from_db():
     match_info_cursor=load_all_data_from_db('testdb','match_info')
     bat_stats_cursor = load_all_data_from_db('testdb', 'bat_stats')
+    bat_pp_stats_cursor = load_all_data_from_db('testdb', 'bat_pp_stats')
+    bat_middle_stats_cursor = load_all_data_from_db('testdb', 'bat_middle_stats')
+    bat_death_stats_cursor = load_all_data_from_db('testdb', 'bat_death_stats')
     batsmen_list_unique = get_list_all_batsmen(bat_stats_cursor)
     bowl_stats_cursor = load_all_data_from_db('testdb', 'bowl_stats')
     bowler_list_unique = get_list_all_bowlers(bowl_stats_cursor)
@@ -73,7 +76,8 @@ def load_stats_from_db():
     #res_2=list(set(fielder_list_unique + consolidated_player_list))
     list_of_subs_who_cauught=list(set(fielder_list_unique) - set(consolidated_player_list))
     wickets_stats_cursor = load_all_data_from_db('testdb', 'wickets_stats')
-    return bat_stats_cursor,bowl_stats_cursor,field_stats_cursor,wickets_stats_cursor,batsmen_list_unique,bowler_list_unique,consolidated_player_list
+    return bat_stats_cursor,bowl_stats_cursor,field_stats_cursor,wickets_stats_cursor,batsmen_list_unique\
+        ,bowler_list_unique,consolidated_player_list,bat_pp_stats_cursor,bat_middle_stats_cursor,bat_death_stats_cursor
 
 def get_individual_bat_raw_stats(player,bat_stats_cursor):
     bat_raw_stats=[]
